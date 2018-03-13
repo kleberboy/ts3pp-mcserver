@@ -1,0 +1,45 @@
+[1;31m●[0m loki
+    State: [1;31mdegraded[0m
+     Jobs: 0 queued
+   Failed: 1 units
+    Since: Sat 2017-09-16 12:15:15 EDT; 1 months 10 days ago
+   CGroup: /
+           ├─1 init -z       
+           └─system.slice
+             ├─mysql.service
+             │ ├─8528 /bin/bash /usr/bin/mysqld_safe
+             │ ├─8666 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib/mysql/plugin --user=mysql --skip-log-error --pid-file=/var/run/mysqld/mysqld.pid --socket=/var/run/mysqld/mysqld.sock --port=3306
+             │ └─8667 logger -t mysqld -p daemon.error
+             ├─console-getty.service
+             │ └─260 /sbin/agetty --noclear --keep-baud console 115200 38400 9600 vt102
+             ├─systemd-resolved.service
+             │ └─245 /lib/systemd/systemd-resolved
+             ├─fail2ban.service
+             │ └─268 /usr/bin/python /usr/bin/fail2ban-server -b -s /var/run/fail2ban/fail2ban.sock -p /var/run/fail2ban/fail2ban.pid
+             ├─ssh.service
+             │ ├─  235 /usr/sbin/sshd -D
+             │ ├─13479 sshd: root@pts/0    
+             │ ├─13521 -bash
+             │ ├─13972 sshd: [accepted]    
+             │ ├─13973 sshd: [net]         
+             │ ├─13974 sshd: [accepted]    
+             │ ├─13975 sshd: [net]         
+             │ └─13976 systemctl status
+             ├─systemd-networkd.service
+             │ └─225 /lib/systemd/systemd-networkd
+             ├─dbus.service
+             │ └─224 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+             ├─systemd-logind.service
+             │ └─221 /lib/systemd/systemd-logind
+             ├─rsyslog.service
+             │ └─219 /usr/sbin/rsyslogd -n
+             ├─systemd-journald.service
+             │ └─98 /lib/systemd/systemd-journald
+             ├─systemd-udevd.service
+             │ └─56 /lib/systemd/systemd-udevd
+             ├─system-getty.slice
+             │ └─getty@tty2.service
+             │   └─258 /sbin/agetty --noclear tty2 linux
+             └─system-openvpn.slice
+               └─openvpn@server.service
+                 └─243 /usr/sbin/openvpn --daemon ovpn-server --status /run/openvpn/server.status 10 --cd /etc/openvpn --config /etc/openvpn/server.conf

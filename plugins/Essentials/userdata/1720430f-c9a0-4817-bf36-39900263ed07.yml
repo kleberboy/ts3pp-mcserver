@@ -1,0 +1,28 @@
+lastAccountName: Ninocrafter
+timestamps:
+  login: 1518616918958
+  lastteleport: 1518617340915
+  logout: 1518617348794
+ipAddress: 178.190.210.83
+lastlocation:
+  world: Spawn
+  x: -0.6501320567566593
+  y: 4.0
+  z: 7.011003240773441
+  yaw: 20.855228
+  pitch: 12.245272
+homes:
+  home:
+    world: world
+    x: 128.24961742068882
+    y: 89.0
+    z: 163.97776569683234
+    yaw: -346.2335
+    pitch: 21.423206
+logoutlocation:
+  world: Spawn
+  x: 1.5
+  y: 4.0
+  z: 0.5
+  yaw: 1.1479943
+  pitch: 2.487321

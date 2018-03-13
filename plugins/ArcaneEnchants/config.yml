@@ -1,0 +1,37 @@
+# 
+# Defines the max level of enchanting
+# Can be any integer now but Minecraft enchantments only go up to 32672 successfully
+max: 10000
+effect:
+  ender: true
+  potion: true
+  potionid: 10
+  radius: 3
+update:
+  general: false
+  auto-download: true
+metrics: true
+overall_protection: prot, protection
+fire_protection: fireprot, fireprotection
+feather_falling: featherprot, featherfalling
+blast_protection: blastprot, blastprotection
+projectile_protection: projprot, projectileprotection
+respiration: respiration
+thorns: thorns
+aqua_affinity: aquaaffinity
+sharpness: sharpness
+smite: smite
+bane_of_arthropods: bane, baneofarthropods
+knockback: knockback
+fire_aspect: fireaspect
+looting: loot, looting
+power: power
+punch: punch
+flame: flame
+infinity: infinity
+efficiency: efficiency
+silk_touch: silktouch
+unbreaking: unbreaking
+fortune: fortune
+lure: lure
+luck_of_the_sea: luck

@@ -1,0 +1,44 @@
+lastAccountName: Legnaya
+timestamps:
+  login: 1520791439571
+  logout: 1520791715516
+  lastteleport: 1520118216013
+ipAddress: 217.248.126.191
+logoutlocation:
+  world: Winter
+  x: -805.9231471785357
+  y: 70.0
+  z: -1090.661786332775
+  yaw: 149.34918
+  pitch: 26.694744
+lastlocation:
+  world: Spawn
+  x: 1.5
+  y: 4.0
+  z: 0.5
+  yaw: -0.26193663
+  pitch: -0.26193663
+homes:
+  home:
+    world: Winter
+    x: -811.2830037965534
+    y: 64.0
+    z: -1102.5498426503775
+    yaw: 224.67267
+    pitch: 20.481869
+  pilz:
+    world: Winter
+    x: -1258.0726301398718
+    y: 69.0
+    z: -4739.246874762485
+    yaw: -200.828
+    pitch: 37.088924
+  jungle:
+    world: Winter
+    x: -12596.57603952622
+    y: 76.0
+    z: -7393.64102617477
+    yaw: -121.50288
+    pitch: 39.91758
+afk: false
+godmode: true

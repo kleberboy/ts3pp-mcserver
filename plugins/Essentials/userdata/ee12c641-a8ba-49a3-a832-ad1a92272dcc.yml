@@ -1,0 +1,20 @@
+lastAccountName: PHILLIPMAN_HD
+timestamps:
+  login: 1520877571507
+  logout: 1520877732094
+  lastteleport: 1509290459401
+ipAddress: 95.91.212.53
+logoutlocation:
+  world: world
+  x: -275.5665851724765
+  y: 65.0
+  z: 239.7126520829971
+  yaw: -73.09413
+  pitch: 17.7768
+lastlocation:
+  world: world_nether
+  x: -191.83021723355736
+  y: 36.0
+  z: 106.13923130984409
+  yaw: -263.10107
+  pitch: -3.0147433

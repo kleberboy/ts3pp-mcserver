@@ -1,0 +1,28 @@
+lastAccountName: janglidenzuch
+timestamps:
+  login: 1518790829143
+  lastteleport: 1518619613785
+  logout: 1518790868593
+ipAddress: 88.207.139.160
+lastlocation:
+  world: Winter
+  x: -651.6990382616059
+  y: 69.0
+  z: -296.5353425396699
+  yaw: -272.81555
+  pitch: 75.12028
+homes:
+  home:
+    world: Winter
+    x: -660.385106659299
+    y: 63.0
+    z: -298.57636708815227
+    yaw: 57.725925
+    pitch: 21.871061
+logoutlocation:
+  world: Winter
+  x: -634.5304140051115
+  y: 62.0
+  z: -297.85908375181026
+  yaw: -227.1029
+  pitch: 87.70609

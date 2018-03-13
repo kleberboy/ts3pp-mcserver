@@ -1,0 +1,38 @@
+[
+  {
+    "uuid": "c811ffa1-cfcd-44bf-a87c-64a8a0cc7518",
+    "name": "EvilAntiSmiley",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a9d76660-f3e9-4849-bfc3-8368b8006a55",
+    "name": "Legnaya",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "532b1cd0-97b3-44e8-9a4a-2459464b5cef",
+    "name": "Petsche",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "af6718ae-82b8-4c41-a28e-a555707fa868",
+    "name": "ThunderPlumber",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "bcb341ca-4a16-4bda-ad95-ad56b03f3dcb",
+    "name": "Remaved",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "81e35ce1-0165-4eca-9135-6f5c7cc3ea76",
+    "name": "The_Gamer_HD",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
