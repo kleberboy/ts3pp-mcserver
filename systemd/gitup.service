@@ -22,4 +22,4 @@ SuccessExitStatus=0 1
 Type=oneshot
 
 
-ExecStart=/opt/minecraft-server/server/tekxit2-server/gitup.sh
+ExecStart=/opt/minecraft-server/server/mc-server/gitup.sh

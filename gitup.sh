@@ -11,12 +11,12 @@ systemctl enable gitup.timer
 
 fi
 
-systemctl stop tekxit.service
+systemctl stop minecraft.service
 sleep 39
 cd $DIR
 git add .
 git commit -m "$(date) automated backup script (gitup.sh)"
 git push -uf origin master;
-systemctl restart tekxit.service
+systemctl restart minecraft.service
 
 exit 0
