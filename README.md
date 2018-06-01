@@ -16,7 +16,7 @@ First of all we need to make some preparations in the os to guarantee a reliable
 Setting up the correct locals:
 
 ```bash
-cp /usr/share/zoneinfo/UTC /etc/localtime
+ln -sfn /usr/share/zoneinfo/UTC /etc/localtime
 ```
 ```bash
 export LC_ALL=
