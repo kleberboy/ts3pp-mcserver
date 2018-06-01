@@ -1,5 +1,5 @@
-# [](#header-1)Tekxit2 server with plugins
-Tekxit 2 is a combination of Tekkit and Hexxit in Minecraft 1.7.10.
+# [](#header-1)minecraft server with plugins
+minecraft 1.8.8
 
 
 ## [](#header-2)Installation
@@ -53,7 +53,7 @@ mkdir -p /opt/minecraft/{backup/server,build/mcrcon,server}
 
 
 ### [](#header-3)Step 3:
-In order to be able to manage the tekxit-server in the future we need to compile mcrcon.
+In order to be able to manage the minecraft-server in the future we need to compile mcrcon.
 
 ```bash
 cd /opt/minecraft-server/build/mcrcon
@@ -73,28 +73,28 @@ mv mcrcon /usr/local/bin/
 
 
 ### [](#header-3)Step 4:
-Next step we have to clone my tekxit2-server repo and link the systemd unit.
+Next step we have to clone my minecraft-server repo and link the systemd unit.
 
 ```bash
-git clone https://github.com/kleberboy/tekxit2-server.git /opt/minecraft-server/server/
+git clone https://github.com/ThunderbotlOP/mc-server.git /opt/minecraft-server/server/
 ```
 ```bash
 chown -Rv minecraft:minecraft /opt/minecraft-server/
 ```
 ```bash
-ln /opt/minecraft-server/server/tekxit2-server/systemd/tekxit.service /etc/systemd/system/
+ln /opt/minecraft-server/server/minecraft-server/systemd/minecraft.service /etc/systemd/system/
 ```
 ```bash
 systemctl daemon-reload
 ```
 ```bash
-systemctl start tekxit.service
+systemctl start minecraft.service
 ```
 ```bash
-systemctl status tekxit.service
+systemctl status minecraft.service
 ```
 ```bash
-systemctl enable tekxit.service
+systemctl enable minecraft.service
 ```
 
 
