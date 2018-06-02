@@ -1,0 +1,31 @@
+lastAccountName: EvilAntiSmiley
+timestamps:
+  login: 1519847129095
+  logout: 1519847190614
+  lastteleport: 1518546172659
+ipAddress: 178.115.129.110
+lastlocation:
+  world: Winter
+  x: -651.8132849370812
+  y: 11.0
+  z: -432.69999998807907
+  yaw: -266.24835
+  pitch: 19.800022
+logoutlocation:
+  world: Winter
+  x: -652.4901869061916
+  y: 69.0
+  z: -295.93145063500265
+  yaw: -165.74979
+  pitch: 39.599957
+nickname: EvilAntiSmiley
+homes:
+  home:
+    world: Winter
+    x: -659.3662781517376
+    y: 63.0
+    z: -312.52752038058986
+    yaw: -272.99875
+    pitch: 76.64998
+afk: false
+godmode: false

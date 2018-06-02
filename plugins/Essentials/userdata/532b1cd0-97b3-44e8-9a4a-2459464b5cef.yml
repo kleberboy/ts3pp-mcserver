@@ -1,0 +1,29 @@
+lastAccountName: Petsche
+timestamps:
+  login: 1509570132060
+  logout: 1509571527559
+  lastteleport: 1509493893717
+ipAddress: 91.141.2.203
+lastlocation:
+  world: world
+  x: -106.24247802615523
+  y: 85.0
+  z: 362.4198802573315
+  yaw: 357.78693
+  pitch: -18.0
+logoutlocation:
+  world: world
+  x: -365.5799300851685
+  y: 94.0
+  z: 269.5649528013403
+  yaw: 98.21875
+  pitch: 53.099842
+homes:
+  home:
+    world: world
+    x: -376.40076597051814
+    y: 75.0
+    z: 262.4999022640649
+    yaw: 270.45093
+    pitch: 34.05003
+godmode: true

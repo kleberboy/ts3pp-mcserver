@@ -1,0 +1,260 @@
+[12:57:28] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[12:57:28] [Server thread/INFO]: Loading properties
+[12:57:28] [Server thread/INFO]: Default game type: SURVIVAL
+[12:57:28] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[12:57:28] [Server thread/INFO]: Console input is disabled due to --noconsole command argument
+[12:57:28] [Server thread/INFO]: Debug logging is disabled
+[12:57:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:57:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:57:28] [Server thread/INFO]: Generating keypair
+[12:57:28] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:39000
+[12:57:28] [Server thread/INFO]: Using default channel type
+[12:57:29] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:57:29] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[12:57:29] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[12:57:29] [Server thread/INFO]: [Essentials] Loading Essentials vTeamCity
+[12:57:29] [Server thread/INFO]: [ClearChat] Loading ClearChat v1.2
+[12:57:29] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vTeamCity
+[12:57:29] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
+[12:57:29] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b719
+[12:57:29] [Server thread/INFO]: [TimberMP] Loading TimberMP v1.3.0
+[12:57:29] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.0.0-beta-03.1514-
+[12:57:29] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild vTeamCity
+[12:57:29] [Server thread/INFO]: [ServerSigns] Loading ServerSigns v4.5.1
+[12:57:29] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:57:29] [Server thread/INFO]: Preparing level "world"
+[12:57:29] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:57:29] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:57:29] [Server thread/INFO]: Clear tick list: false
+[12:57:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:57:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:57:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:57:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:57:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:57:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:57:29] [Server thread/INFO]: Mob Spawn Range: 4
+[12:57:29] [Server thread/INFO]: Anti X-Ray: true
+[12:57:29] [Server thread/INFO]: 	Engine Mode: 1
+[12:57:29] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:57:29] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:57:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:57:29] [Server thread/INFO]: Structure Info Saving: true
+[12:57:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:57:29] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:57:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:57:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:57:29] [Server thread/INFO]: Max TNT Explosions: 100
+[12:57:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:57:29] [Server thread/INFO]: Random Lighting Updates: false
+[12:57:29] [Server thread/INFO]: View Distance: 10
+[12:57:29] [Server thread/INFO]: Max Entity Collisions: 8
+[12:57:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:57:29] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:57:29] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:57:29] [Server thread/INFO]: Clear tick list: false
+[12:57:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:57:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:57:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:57:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:57:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:57:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:57:29] [Server thread/INFO]: Mob Spawn Range: 4
+[12:57:29] [Server thread/INFO]: Anti X-Ray: true
+[12:57:29] [Server thread/INFO]: 	Engine Mode: 1
+[12:57:29] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:57:29] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:57:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:57:29] [Server thread/INFO]: Structure Info Saving: true
+[12:57:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:57:29] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:57:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:57:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:57:29] [Server thread/INFO]: Max TNT Explosions: 100
+[12:57:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:57:29] [Server thread/INFO]: Random Lighting Updates: false
+[12:57:29] [Server thread/INFO]: View Distance: 10
+[12:57:29] [Server thread/INFO]: Max Entity Collisions: 8
+[12:57:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:57:29] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:57:29] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:57:29] [Server thread/INFO]: Clear tick list: false
+[12:57:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:57:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:57:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:57:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:57:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:57:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:57:29] [Server thread/INFO]: Mob Spawn Range: 4
+[12:57:29] [Server thread/INFO]: Anti X-Ray: true
+[12:57:29] [Server thread/INFO]: 	Engine Mode: 1
+[12:57:29] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:57:29] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:57:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:57:29] [Server thread/INFO]: Structure Info Saving: true
+[12:57:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:57:29] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:57:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:57:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:57:29] [Server thread/INFO]: Max TNT Explosions: 100
+[12:57:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:57:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:57:29] [Server thread/INFO]: Random Lighting Updates: false
+[12:57:29] [Server thread/INFO]: View Distance: 10
+[12:57:29] [Server thread/INFO]: Max Entity Collisions: 8
+[12:57:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:57:29] [Server thread/INFO]: Preparing start region for level 0 (Seed: -998420947821119761)
+[12:57:30] [Server thread/INFO]: Preparing start region for level 1 (Seed: -998420947821119761)
+[12:57:30] [Server thread/INFO]: Preparing start region for level 2 (Seed: -998420947821119761)
+[12:57:31] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[12:57:31] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[12:57:31] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[12:57:31] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[12:57:31] [Server thread/INFO]: WEPIF: Updated config file
+[12:57:31] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[12:57:31] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[12:57:31] [Server thread/INFO]: [Essentials] Enabling Essentials vTeamCity
+[12:57:31] [Server thread/INFO]: Bukkit version format changed. Version not checked.
+[12:57:31] [Server thread/INFO]: git-Spigot-db6de12-18fbb24 (MC: 1.8.8)
+[12:57:31] [Server thread/INFO]: 1.8.8-R0.1-SNAPSHOT
+[12:57:31] [Server thread/INFO]: Using locale en_US
+[12:57:31] [Server thread/INFO]: Using locale en_US
+[12:57:31] [Server thread/INFO]: Essentials: Using PermissionsEx based permissions.
+[12:57:31] [Server thread/INFO]: [ClearChat] Enabling ClearChat v1.2
+[12:57:31] [Server thread/INFO]: [0;32;1mClearChat [0;37;22mversion [0;33;1m1.2 [0;37;22mby [0;32;1mLuconian [0;37;22mactivated[m
+[12:57:31] [Server thread/INFO]: [0;31;1m[21mCould not find BossBarAPI![m
+[12:57:31] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vTeamCity
+[12:57:31] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
+[12:57:31] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b719
+[12:57:31] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[12:57:31] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[12:57:31] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[12:57:31] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[12:57:31] [Server thread/INFO]: -------- World Settings For [Winter] --------
+[12:57:31] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:57:31] [Server thread/INFO]: Clear tick list: false
+[12:57:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:57:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:57:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:57:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:57:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:57:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:57:31] [Server thread/INFO]: Mob Spawn Range: 4
+[12:57:31] [Server thread/INFO]: Anti X-Ray: true
+[12:57:31] [Server thread/INFO]: 	Engine Mode: 1
+[12:57:31] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:57:31] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:57:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:57:31] [Server thread/INFO]: Structure Info Saving: true
+[12:57:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:57:31] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:57:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:57:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:57:31] [Server thread/INFO]: Max TNT Explosions: 100
+[12:57:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:57:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:57:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:57:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:57:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:57:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:57:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:57:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:57:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:57:31] [Server thread/INFO]: Random Lighting Updates: false
+[12:57:31] [Server thread/INFO]: View Distance: 10
+[12:57:31] [Server thread/INFO]: Max Entity Collisions: 8
+[12:57:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:57:31] [Server thread/INFO]: Preparing start region for level 3 (Seed: -8496480353822907587)
+[12:57:32] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: Wintermap
+[12:57:32] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[12:57:32] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: Winterwelt
+[12:57:32] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[12:57:32] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: Spawn
+[12:57:32] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[12:57:32] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[12:57:32] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b719 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
+[12:57:32] [Server thread/INFO]: [TimberMP] Enabling TimberMP v1.3.0
+[12:57:32] [Server thread/INFO]: [TimberMP] v1.3.0 by [McSebi] enabled.
+[12:57:32] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.0.0-beta-03.1514-
+[12:57:32] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[12:57:32] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[12:57:32] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[12:57:32] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[12:57:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[12:57:32] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[12:57:32] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[12:57:32] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[12:57:32] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[12:57:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[12:57:32] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[12:57:32] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[12:57:32] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[12:57:32] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[12:57:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[12:57:32] [Server thread/INFO]: [WorldGuard] (Winter) TNT ignition is PERMITTED.
+[12:57:32] [Server thread/INFO]: [WorldGuard] (Winter) Lighters are PERMITTED.
+[12:57:32] [Server thread/INFO]: [WorldGuard] (Winter) Lava fire is blocked.
+[12:57:32] [Server thread/INFO]: [WorldGuard] (Winter) Fire spread is UNRESTRICTED.
+[12:57:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Winter'
+[12:57:32] [Server thread/INFO]: [WorldGuard] Loading region data...
+[12:57:32] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild vTeamCity
+[12:57:32] [Server thread/INFO]: [ServerSigns] Enabling ServerSigns v4.5.1
+[12:57:32] [Server thread/INFO]: [ServerSigns] Unable to load Vault dependency - certain economy and permission features will be disabled
+[12:57:32] [Server thread/INFO]: [ServerSigns] Please download Vault at http://dev.bukkit.org/server-mods/vault/ for Economy and "Permission grant" support.
+[12:57:32] [Server thread/INFO]: [ServerSigns] Version 4.5.1 is now enabled.
+[12:57:32] [Server thread/INFO]: Done (3.412s)! For help, type "help" or "?"
+[12:57:32] [Server thread/INFO]: Starting remote control listener
+[12:57:32] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:65535
+[12:57:32] [Server thread/INFO]: [ServerSigns] Could not load Spawn_10_5_-1.yml. Invalid location
+[12:57:32] [Server thread/INFO]: [ServerSigns] Could not load Spawn_10_5_-2.yml. Invalid location
+[12:57:48] [User Authenticator #1/INFO]: UUID of player ThunderPlumber is af6718ae-82b8-4c41-a28e-a555707fa868
+[12:57:48] [Server thread/INFO]: ThunderPlumber[/127.0.0.1:51071] logged in with entity id 397 at ([Winter]-761.2862358156472, 70.59595598201821, -1149.195946592064)
+[12:57:53] [Craft Scheduler Thread - 1/INFO]: [Metrics] Connection timed out: connect
+[12:58:24] [Server thread/INFO]: ThunderPlumber issued server command: /stop
+[12:58:24] [Server thread/INFO]: [ThunderPlumber: Stopping the server]
+[12:58:24] [Server thread/INFO]: Stopping server
+[12:58:24] [Server thread/INFO]: [ServerSigns] Disabling ServerSigns v4.5.1
+[12:58:24] [Server thread/INFO]: [ServerSigns] ServerSigns is now disabled.
+[12:58:24] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild vTeamCity
+[12:58:24] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.0.0-beta-03.1514-
+[12:58:24] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[12:58:24] [Server thread/INFO]: [TimberMP] Disabling TimberMP v1.3.0
+[12:58:24] [Server thread/INFO]: [TimberMP] v1.3.0 by [McSebi] disabled.
+[12:58:24] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b719
+[12:58:24] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vTeamCity
+[12:58:24] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn vTeamCity
+[12:58:24] [Server thread/INFO]: [ClearChat] Disabling ClearChat v1.2
+[12:58:24] [Server thread/INFO]: [0;32;1mClearChat [0;37;22mversion [0;33;1m1.2 [0;37;22mby [0;32;1mLuconian [0;37;22mdeactivated[m
+[12:58:24] [Server thread/INFO]: [Essentials] Disabling Essentials vTeamCity
+[12:58:24] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[12:58:24] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[12:58:24] [Server thread/INFO]: Saving players
+[12:58:24] [Server thread/INFO]: ThunderPlumber lost connection: Server closed
+[12:58:25] [Server thread/INFO]: ThunderPlumber left the game.
+[12:58:25] [Server thread/INFO]: Saving worlds
+[12:58:25] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[12:58:25] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[12:58:25] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[12:58:25] [Server thread/INFO]: Saving chunks for level 'Winter'/Overworld
