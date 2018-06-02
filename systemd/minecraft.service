@@ -17,7 +17,7 @@ Group=minecraft
 
 Nice=-20
 
-EnvironmentFile=-/opt/minecraft-server/mc-server/unit.conf
+EnvironmentFile=-/opt/minecraft-server/unit.conf
 
 KillMode=none
 
@@ -37,9 +37,9 @@ PrivateTmp=true
 InaccessibleDirectories=/bin /boot /mnt /sbin /root /sys /srv -/var /media -/lost+found
 
 
-ReadWriteDirectories=/opt/minecraft-server/server/mc-server
+ReadWriteDirectories=/opt/minecraft-server/server
 
-WorkingDirectory=/opt/minecraft-server/server/mc-server
+WorkingDirectory=/opt/minecraft-server/server
 
 ExecStart=/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -XX:+UseG1GC -XX:StringTableSize=1000003 -XX:+UseFastAccessorMethods -XX:+OptimizeStringConcat -XX:MetaspaceSize=512m -XX:MaxMetaspaceSize=4096m -XX:+AggressiveOpts -XX:MaxGCPauseMillis=50 -XX:+UseStringDeduplication -Xms4G -Xmx6G -XX:hashCode=5 -Dfile.encoding=UTF-8 -jar run.jar --log-strip-color nogui --noconsole
 
