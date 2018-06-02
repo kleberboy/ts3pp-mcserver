@@ -82,7 +82,7 @@ git clone https://github.com/ThunderboltOP/mc-server.git /opt/minecraft-server/s
 chown -Rv minecraft:minecraft /opt/minecraft-server/
 ```
 ```bash
-ln /opt/minecraft-server/server/minecraft-server/systemd/minecraft.service /etc/systemd/system/
+ln /opt/minecraft-server/server/systemd/minecraft.service /etc/systemd/system/
 ```
 ```bash
 systemctl daemon-reload
