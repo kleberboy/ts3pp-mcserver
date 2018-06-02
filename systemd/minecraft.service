@@ -1,6 +1,6 @@
 [Unit]
 
-Description=A very nize Minecraft Server configured by kleberboy
+Description=A very nize Minecraft Server configured by thunderbottle
 
 
 Wants=network.target
