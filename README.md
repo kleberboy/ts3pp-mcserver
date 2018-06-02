@@ -48,7 +48,7 @@ adduser minecraft --system --group --home /opt/minecraft-server --disabled-login
 ```
 For security reasons we will create the minecraft server in /opt.
 ```bash
-mkdir -p /opt/minecraft/{backup/server,build/mcrcon,server}
+mkdir -p /opt/minecraft-server/{backup/server,build/mcrcon,server}
 ```
 
 
@@ -76,13 +76,13 @@ mv mcrcon /usr/local/bin/
 Next step we have to clone my minecraft-server repo and link the systemd unit.
 
 ```bash
-git clone https://github.com/ThunderbotlOP/mc-server.git /opt/minecraft-server/server/
+git clone https://github.com/ThunderboltOP/mc-server.git /opt/minecraft-server/server/
 ```
 ```bash
 chown -Rv minecraft:minecraft /opt/minecraft-server/
 ```
 ```bash
-ln /opt/minecraft-server/server/minecraft-server/systemd/minecraft.service /etc/systemd/system/
+ln /opt/minecraft-server/server/systemd/minecraft.service /etc/systemd/system/
 ```
 ```bash
 systemctl daemon-reload
