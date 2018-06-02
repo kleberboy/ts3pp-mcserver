@@ -76,7 +76,7 @@ mv mcrcon /usr/local/bin/
 Next step we have to clone my minecraft-server repo and link the systemd unit.
 
 ```bash
-git clone https://github.com/ThunderbotlOP/mc-server.git /opt/minecraft-server/server/
+git clone https://github.com/ThunderboltOP/mc-server.git /opt/minecraft-server/server/
 ```
 ```bash
 chown -Rv minecraft:minecraft /opt/minecraft-server/
