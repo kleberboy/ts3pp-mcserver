@@ -48,7 +48,7 @@ adduser minecraft --system --group --home /opt/minecraft-server --disabled-login
 ```
 For security reasons we will create the minecraft server in /opt.
 ```bash
-mkdir -p /opt/minecraft/{backup/server,build/mcrcon,server}
+mkdir -p /opt/minecraft-server/{backup/server,build/mcrcon,server}
 ```
 
 
