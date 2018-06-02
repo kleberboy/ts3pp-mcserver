@@ -1,0 +1,8 @@
+[Unit]
+Description=run 4hrly world backups ^^
+
+[Timer]
+OnCalendar=*-*-* 04,08,12,16,20:00:00
+
+[Install]
+WantedBy=multi-user.target
