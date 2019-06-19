@@ -4,6 +4,7 @@ groups:
       default: true
       prefix: '&8[&bGast&8]&7'
     permissions:
+    - multiverse.teleport.self.w
     - serversigns.use.promote
     - serversigns.use.*
     - serversigns.use
@@ -23,88 +24,12 @@ groups:
     - essentials.home
     - essentials.sethome
     - essentials.msg
+    - timbermp.use
     options:
       prefix: '&8[&6Member&8]&7'
-  Neko:
-    permissions:
-    - multiverse.teleport.self.*
-    - serversigns.*
-    - serversigns.use
-    - timbermp.use
-    - essentials.build
-    - essentials.build.*
-    - essentials.spawn
-    - essentials.back
-    - essentials.delhome
-    - essentials.tpdeny
-    - essentials.tpaccept
-    - essentials.tpa
-    - essentials.home
-    - essentials.sethome
-    - essentials.msg
+  Admin:
     options:
-      prefix: '&8[&5Neko&8]&7'
-  Oni:
-    permissions:
-    - essentials.spawn
-    - multiverse.teleport.self.*
-    - serversigns.*
-    - serversigns.use
-    - timbermp.use
-    - essentials.back
-    - essentials.delhome
-    - essentials.tpdeny
-    - essentials.tpaccept
-    - essentials.tpa
-    - essentials.home
-    - essentials.sethome
-    - essentials.msg
-    - essentials.build.*
-    options:
-      prefix: '&8[&4Oni&8]&7'
-  Butterfly:
-    permissions:
-    - multiverse.teleport.*
-    - serversigns.*
-    - serversigns.use
-    - essentials.tp.*
-    - essentials.tpaccept
-    - essentials.invsee
-    - essentials.sethome.*
-    - essentials.sethome.multiple
-    - essentials.back.*
-    - essentials.back
-    - timbermp.use
-    - essentials.spawn
-    - essentials.build.*
-    - essentials.realname
-    - essentials.chat.url
-    - essentials.nick
-    - essentials.chat.color
-    - essentials.mute
-    - essentials.msg.*
-    - essentials.workbench
-    - essentials.gamemode.*
-    - essentials.delhome.*
-    - essentials.broadcast
-    - essentials.sethome
-    - essentials.home
-    - essentials.kill
-    - essentials.kick
-    - essentials.tempban
-    - essentials.tp
-    - essentials.tp.others
-    - essentials.back
-    - essentials.build.*
-    - essentials.realname
-    - essentials.chat.url
-    - essentials.nick
-    - essentials.chat.color
-    options:
-      prefix: '&8[&0Butterfly&8]&7'
-  Kami:
-    options:
-      prefix: '&8&l[&6&lKami&8&l]&7'
+      prefix: '&8&l[&c&lAdmin&8&l]&7'
     permissions:
     - multiverse.teleport.*
     - serversigns.*
@@ -130,34 +55,28 @@ groups:
     - essentials.kill
     - essentials.kick
     - essentials.tempban
-  Toasbrot: {}
-  toastbrot:
-    options:
-      prefix: '&l&8[&6&lToastbrot&8&l]&7'
-  essentials:
-    permissions: []
 schema-version: 1
 users:
   af6718ae-82b8-4c41-a28e-a555707fa868:
     permissions:
     - '*'
     options:
-      name: ThunderPlumber
+      name: SryForBeingGay
     group:
-    - Member
+    - Admin
     worlds:
       Test:
         group:
         - Member
   c811ffa1-cfcd-44bf-a87c-64a8a0cc7518:
     group:
-    - Kami
+    - Admin
     options:
       name: EvilAntiSmiley
     permissions: []
   532b1cd0-97b3-44e8-9a4a-2459464b5cef:
     group:
-    - Kami
+    - Admin
     worlds:
       Kami:
         group:
@@ -172,17 +91,17 @@ users:
     - Member
   f0bedee6-a7cf-4698-b037-c5355d93ce39:
     group:
-    - Neko
+    - Member
     options:
       name: hennick01
   b8b856cf-574d-4591-b7ee-b09c70d43080:
     group:
-    - Neko
+    - Member
     options:
       name: K1llf0rce
   d0f28164-b65b-4c71-9f12-cb6e8eb4792c:
     group:
-    - Neko
+    - Member
     options:
       name: SparkyplayzTV
   1720430f-c9a0-4817-bf36-39900263ed07:
@@ -203,12 +122,12 @@ users:
       name: zKexs
   ee12c641-a8ba-49a3-a832-ad1a92272dcc:
     group:
-    - Neko
+    - Member
     options:
       name: PHILLIPMAN_HD
   philipmann_hd:
     group:
-    - Neko
+    - Member
   13b1a0cc-d418-49f7-be11-2bcc4f088ed6:
     group:
     - Butterfly
@@ -216,7 +135,7 @@ users:
       name: Kiewaii
   bcb341ca-4a16-4bda-ad95-ad56b03f3dcb:
     group:
-    - Neko
+    - Member
     options:
       name: Remaved
   b9d75492-4c60-4208-9cd1-4e125feed20e:
@@ -226,12 +145,12 @@ users:
       name: Yuuux
   e9ce0f1f-b5fc-46cd-9e2b-3a9fc4ce22a8:
     group:
-    - Butterfly
+    - Member
     options:
       name: Paetz
   109d5f98-78de-494e-b139-962b51dfdf94:
     group:
-    - Neko
+    - Member
     options:
       name: elektrophil
   0839592f-6369-4e08-b616-7a5446cc435c:
@@ -241,11 +160,47 @@ users:
       name: janglidenzuch
   a9d76660-f3e9-4849-bfc3-8368b8006a55:
     group:
-    - Butterfly
+    - Admin
     options:
       name: Legnaya
   81e35ce1-0165-4eca-9135-6f5c7cc3ea76:
     group:
-    - Oni
+    - Member
     options:
       name: The_Gamer_HD
+    permissions: []
+  a0295d1c-e683-3755-9aeb-79538526010a:
+    group:
+    - Admin
+  einhornlaura:
+    group:
+    - Member
+  ne123:
+    group:
+    - Member
+  7432e238-cd00-310f-bfa9-97844c302b93:
+    group:
+    - Member
+  ffd7bb82-c0ba-3e4d-ba45-78a553b4e232:
+    group:
+    - Member
+  ab31fcce-49a3-4753-924a-f521165b9d4c:
+    group:
+    - Member
+    options:
+      name: ChristofelHD
+  1291b47b-18ec-48d8-8e94-e156f73cffc4:
+    group:
+    - Member
+    options:
+      name: sebi04
+  f17e8c2c-5381-491b-9b01-f1fa08b711e9:
+    group:
+    - Member
+    options:
+      name: Flottschi
+  ee127ff1-9b3b-4ac9-b280-6d1ec1ca6893:
+    group:
+    - Admin
+    options:
+      name: ChickPack

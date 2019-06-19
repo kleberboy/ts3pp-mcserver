@@ -12,7 +12,7 @@
 regions:
     __global__:
         members: {}
-        flags: {build: deny, use: allow}
+        flags: {item-drop: deny, build: deny, use: allow, pvp: deny, mob-spawning: deny}
         owners: {}
         type: global
         priority: 0

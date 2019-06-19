@@ -1,16 +1,16 @@
 lastAccountName: Legnaya
 timestamps:
-  login: 1520791439571
-  logout: 1520791715516
+  login: 1535286628708
+  logout: 1535286747767
   lastteleport: 1520118216013
-ipAddress: 217.248.126.191
+ipAddress: 217.248.112.142
 logoutlocation:
   world: Winter
-  x: -805.9231471785357
-  y: 70.0
-  z: -1090.661786332775
-  yaw: 149.34918
-  pitch: 26.694744
+  x: -792.8869141189055
+  y: 64.0
+  z: -1096.7678362954339
+  yaw: 2.3752747
+  pitch: 10.764879
 lastlocation:
   world: Spawn
   x: 1.5

@@ -10,6 +10,14 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    spawn:
+        min: {x: -623.0, y: 0.0, z: -157.0}
+        max: {x: -613.0, y: 255.0, z: -147.0}
+        members: {}
+        flags: {build: deny, block-break: deny, block-place: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     sign:
         min: {x: -618.0, y: 107.0, z: -152.0}
         max: {x: -618.0, y: 107.0, z: -152.0}
@@ -21,7 +29,8 @@ regions:
     __global__:
         members:
             unique-ids: [81e35ce1-0165-4eca-9135-6f5c7cc3ea76, bcb341ca-4a16-4bda-ad95-ad56b03f3dcb]
-        flags: {other-explosion: deny, creeper-explosion: deny}
+        flags: {other-explosion: deny, creeper-explosion: deny, build: allow, block-break: allow,
+            pvp: allow, block-place: allow}
         owners: {}
         type: global
         priority: 0

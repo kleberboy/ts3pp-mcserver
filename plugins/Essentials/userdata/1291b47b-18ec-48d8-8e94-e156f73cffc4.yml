@@ -1,0 +1,20 @@
+lastAccountName: sebi04
+timestamps:
+  login: 1531481904822
+  lastteleport: 1531482125292
+  logout: 1531482405974
+ipAddress: 193.81.177.176
+lastlocation:
+  world: world
+  x: -151.79046401017587
+  y: 108.35076981700277
+  z: 228.0475283805878
+  yaw: -6.3004
+  pitch: -7.799838
+logoutlocation:
+  world: world
+  x: -161.23179870228282
+  y: 70.0
+  z: 262.06466878476203
+  yaw: -238.6275
+  pitch: 5.8500037

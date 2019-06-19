@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "af6718ae-82b8-4c41-a28e-a555707fa868",
+    "name": "ThunderPlumber",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "532b1cd0-97b3-44e8-9a4a-2459464b5cef",
+    "name": "Petsche",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

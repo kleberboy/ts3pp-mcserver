@@ -16,14 +16,7 @@ confirmationMessage: ''
 cancel_mode: ALWAYS
 commands:
   '0':
-    command: mvtp Spawn
-    type: PLAYER_COMMAND
-    delay: 0
-    grantPerms: []
-    alwaysPersisted: false
-    interactValue: 0
-  '1':
-    command: mvtp spawn
+    command: /spawn
     type: PLAYER_COMMAND
     delay: 0
     grantPerms: []
@@ -45,7 +38,7 @@ hi_criteria:
 loops: -1
 loop_delay: 1
 uses_limit: 0
-uses_tally: 5
+uses_tally: 18
 protectedBlocks:
 - world,-174,69,253
 displayInternalMessages: true
