@@ -1,8 +1,8 @@
 lastAccountName: Flottschi
 timestamps:
-  login: 1557615572075
-  logout: 1557615595559
-ipAddress: 213.157.155.197
+  login: 1562621188803
+  logout: 1562621194120
+ipAddress: 213.157.157.19
 lastlocation:
   world: Frￃhling
   x: -8.5
@@ -11,9 +11,9 @@ lastlocation:
   yaw: 38.854088
   pitch: 25.25802
 logoutlocation:
-  world: Frￃhling
-  x: -56.651055312831886
-  y: 27.0
-  z: -49.69999998807907
-  yaw: 186.43024
-  pitch: -31.847494
+  world: Fruhling
+  x: -56.69485899049323
+  y: 26.0
+  z: -48.032039756073
+  yaw: 358.9791
+  pitch: 48.03182

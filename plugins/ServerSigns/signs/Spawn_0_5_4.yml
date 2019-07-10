@@ -16,7 +16,7 @@ confirmationMessage: ''
 cancel_mode: ALWAYS
 commands:
   '0':
-    command: /mvtp Frühling
+    command: /mvtp Fruhling
     type: PLAYER_COMMAND
     delay: 0
     grantPerms: []
@@ -38,7 +38,7 @@ hi_criteria:
 loops: -1
 loop_delay: 1
 uses_limit: 0
-uses_tally: 92
+uses_tally: 6
 protectedBlocks:
 - Spawn,0,5,5
 displayInternalMessages: true

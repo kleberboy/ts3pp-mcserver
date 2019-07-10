@@ -1,25 +1,25 @@
 lastAccountName: SryForBeingGay
 timestamps:
-  login: 1558857052473
-  lastteleport: 1558857580431
-  logout: 1558858207132
+  login: 1562792909146
+  lastteleport: 1562532934637
+  logout: 1562533154200
   kits:
     tools: 1509142372782
-ipAddress: 77.116.216.119
+ipAddress: 178.113.225.46
 lastlocation:
-  world: world
-  x: -173.09400681569713
-  y: 70.0
-  z: 250.77957180816804
-  yaw: -348.48853
-  pitch: 14.9726925
+  world: Winter
+  x: -940.7882637326798
+  y: 16.3407155859393
+  z: -1018.7481865140503
+  yaw: -68.12781
+  pitch: -6.5797825
 logoutlocation:
-  world: Frￃhling
-  x: 55.83356522710565
-  y: 96.04784615706859
-  z: -92.69386106274501
-  yaw: 101.258804
-  pitch: 31.077581
+  world: Winter
+  x: -804.829124561954
+  y: 64.95975165487035
+  z: -1126.2141860234924
+  yaw: 175.8811
+  pitch: 24.228539
 afk: false
 homes:
   home:
@@ -128,3 +128,4 @@ homes:
     yaw: 89.78965
     pitch: 21.245995
 godmode: true
+money: '128000.0'

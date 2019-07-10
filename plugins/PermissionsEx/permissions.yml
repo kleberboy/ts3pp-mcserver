@@ -5,9 +5,6 @@ groups:
       prefix: '&8[&bGast&8]&7'
     permissions:
     - multiverse.teleport.self.w
-    - serversigns.use.promote
-    - serversigns.use.*
-    - serversigns.use
   Member:
     permissions:
     - multiverse.teleport.self.*
@@ -204,3 +201,8 @@ users:
     - Admin
     options:
       name: ChickPack
+  557e709f-a4c1-4ba8-930e-c7e416d38c0e:
+    group:
+    - Admin
+    options:
+      name: CopperCookie

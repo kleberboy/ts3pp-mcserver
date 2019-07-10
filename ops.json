@@ -10,5 +10,11 @@
     "name": "Petsche",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "557e709f-a4c1-4ba8-930e-c7e416d38c0e",
+    "name": "CopperCookie",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
