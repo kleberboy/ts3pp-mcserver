@@ -1,20 +1,20 @@
 lastAccountName: CopperCookie
 timestamps:
-  login: 1562531650692
-  logout: 1562533141444
-  lastteleport: 1562532473564
-ipAddress: 178.165.130.252
+  login: 1563998646992
+  logout: 1564002893578
+  lastteleport: 1563998738563
+ipAddress: 178.115.129.120
 lastlocation:
-  world: Winter
-  x: 163.4901274522714
-  y: 97.76484051832037
-  z: 734.2415130156717
-  yaw: -320.2257
-  pitch: 46.387684
+  world: PokemonMap
+  x: 31.49905191734189
+  y: 4.0
+  z: 23.52788034363421
+  yaw: -80.15527
+  pitch: 11.144844
 logoutlocation:
-  world: Winter
-  x: -807.10169740015
-  y: 63.0
-  z: -1128.7174729461249
-  yaw: -37.46704
-  pitch: 16.62913
+  world: PokemonMap
+  x: 5.337088774748657
+  y: 6.1996955149077655
+  z: 20.497429020947802
+  yaw: -191.79044
+  pitch: 41.26736
