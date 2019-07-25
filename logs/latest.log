@@ -1,731 +1,896 @@
-[20:03:37] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[20:03:37] [Server thread/INFO]: Loading properties
-[20:03:37] [Server thread/INFO]: Default game type: SURVIVAL
-[20:03:37] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[20:03:37] [Server thread/INFO]: Console input is disabled due to --noconsole command argument
-[20:03:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:03:37] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:03:37] [Server thread/INFO]: Debug logging is disabled
-[20:03:37] [Server thread/INFO]: Generating keypair
-[20:03:38] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[20:03:38] [Server thread/INFO]: Using epoll channel type
-[20:03:38] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[20:03:40] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[20:03:40] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
-[20:03:40] [Server thread/INFO]: [Essentials] Loading Essentials vTeamCity
-[20:03:40] [Server thread/INFO]: [ClearChat] Loading ClearChat v1.2
-[20:03:40] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vTeamCity
-[20:03:40] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
-[20:03:40] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.0.0-beta-03.1514-
-[20:03:40] [Server thread/INFO]: [TimberMP] Loading TimberMP v1.3.0
-[20:03:40] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b719
-[20:03:40] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild vTeamCity
-[20:03:40] [Server thread/INFO]: [ServerSigns] Loading ServerSigns v4.5.1
-[20:03:40] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v2.5.0-SNAPSHOT-b418
-[20:03:40] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[20:03:40] [Server thread/INFO]: Preparing level "world"
-[20:03:40] [Server thread/INFO]: -------- World Settings For [world] --------
-[20:03:40] [Server thread/INFO]: Mob Spawn Range: 4
-[20:03:40] [Server thread/INFO]: Anti X-Ray: true
-[20:03:40] [Server thread/INFO]: 	Engine Mode: 1
-[20:03:40] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:03:40] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:03:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:03:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:03:40] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:03:40] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:03:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:03:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:03:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:03:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:03:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:03:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:03:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:03:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:03:40] [Server thread/INFO]: Random Lighting Updates: false
-[20:03:40] [Server thread/INFO]: Structure Info Saving: true
-[20:03:40] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:03:40] [Server thread/INFO]: Max Entity Collisions: 8
-[20:03:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:03:40] [Server thread/INFO]: Max TNT Explosions: 100
-[20:03:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:03:40] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:03:40] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:03:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:03:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:03:40] [Server thread/INFO]: View Distance: 10
-[20:03:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:03:40] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:03:40] [Server thread/INFO]: Clear tick list: false
-[20:03:40] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:03:40] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[20:03:40] [Server thread/INFO]: Mob Spawn Range: 4
-[20:03:40] [Server thread/INFO]: Anti X-Ray: true
-[20:03:40] [Server thread/INFO]: 	Engine Mode: 1
-[20:03:40] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:03:40] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:03:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:03:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:03:40] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:03:40] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:03:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:03:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:03:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:03:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:03:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:03:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:03:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:03:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:03:40] [Server thread/INFO]: Random Lighting Updates: false
-[20:03:40] [Server thread/INFO]: Structure Info Saving: true
-[20:03:40] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:03:40] [Server thread/INFO]: Max Entity Collisions: 8
-[20:03:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:03:40] [Server thread/INFO]: Max TNT Explosions: 100
-[20:03:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:03:40] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:03:40] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:03:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:03:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:03:40] [Server thread/INFO]: View Distance: 10
-[20:03:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:03:40] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:03:40] [Server thread/INFO]: Clear tick list: false
-[20:03:40] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:03:41] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[20:03:41] [Server thread/INFO]: Mob Spawn Range: 4
-[20:03:41] [Server thread/INFO]: Anti X-Ray: true
-[20:03:41] [Server thread/INFO]: 	Engine Mode: 1
-[20:03:41] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:03:41] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:03:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:03:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:03:41] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:03:41] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:03:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:03:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:03:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:03:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:03:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:03:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:03:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:03:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:03:41] [Server thread/INFO]: Random Lighting Updates: false
-[20:03:41] [Server thread/INFO]: Structure Info Saving: true
-[20:03:41] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:03:41] [Server thread/INFO]: Max Entity Collisions: 8
-[20:03:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:03:41] [Server thread/INFO]: Max TNT Explosions: 100
-[20:03:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:03:41] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:03:41] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:03:41] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:03:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:03:41] [Server thread/INFO]: View Distance: 10
-[20:03:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:03:41] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:03:41] [Server thread/INFO]: Clear tick list: false
-[20:03:41] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:03:41] [Server thread/INFO]: Preparing start region for level 0 (Seed: -998420947821119761)
-[20:03:42] [Server thread/INFO]: Preparing spawn area: 21%
-[20:03:43] [Server thread/INFO]: Preparing spawn area: 68%
-[20:03:44] [Server thread/INFO]: Preparing spawn area: 73%
-[20:03:45] [Server thread/INFO]: Preparing start region for level 1 (Seed: -998420947821119761)
-[20:03:44] [User Authenticator #2/INFO]: UUID of player CopperCookie is 557e709f-a4c1-4ba8-930e-c7e416d38c0e
-[20:03:44] [User Authenticator #1/INFO]: UUID of player SryForBeingGay is af6718ae-82b8-4c41-a28e-a555707fa868
-[20:03:46] [Server thread/INFO]: Preparing spawn area: 68%
-[20:03:46] [Server thread/INFO]: Preparing start region for level 2 (Seed: -998420947821119761)
-[20:03:46] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[20:03:46] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[20:03:47] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[20:03:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
-[20:03:48] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
-[20:03:48] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[20:03:48] [Server thread/INFO]: [Essentials] Enabling Essentials vTeamCity
-[20:03:48] [Server thread/INFO]: Bukkit version format changed. Version not checked.
-[20:03:48] [Server thread/INFO]: git-Spigot-db6de12-18fbb24 (MC: 1.8.8)
-[20:03:48] [Server thread/INFO]: 1.8.8-R0.1-SNAPSHOT
-[20:03:48] [Server thread/INFO]: Using locale en_US
-[20:03:49] [Server thread/INFO]: Using locale en_US
-[20:03:49] [Server thread/INFO]: Essentials: Using PermissionsEx based permissions.
-[20:03:49] [Server thread/INFO]: [ClearChat] Enabling ClearChat v1.2
-[20:03:49] [Server thread/INFO]: ClearChat version 1.2 by Luconian activated
-[20:03:49] [Server thread/INFO]: Could not find BossBarAPI!
-[20:03:49] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vTeamCity
-[20:03:49] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
-[20:03:49] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.0.0-beta-03.1514-
-[20:03:49] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[20:03:49] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[20:03:49] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
-[20:03:49] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[20:03:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[20:03:49] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[20:03:49] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[20:03:49] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
-[20:03:49] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[20:03:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[20:03:49] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[20:03:49] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[20:03:49] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
-[20:03:49] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[20:03:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[20:03:49] [Server thread/INFO]: [WorldGuard] Loading region data...
-[20:03:50] [Server thread/INFO]: [TimberMP] Enabling TimberMP v1.3.0
-[20:03:50] [Server thread/INFO]: [TimberMP] v1.3.0 by [McSebi] enabled.
-[20:03:50] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b719
-[20:03:51] [Server thread/INFO]: -------- World Settings For [Winter] --------
-[20:03:51] [Server thread/INFO]: Mob Spawn Range: 4
-[20:03:51] [Server thread/INFO]: Anti X-Ray: true
-[20:03:51] [Server thread/INFO]: 	Engine Mode: 1
-[20:03:51] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:03:51] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:03:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:03:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:03:51] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:03:51] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:03:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:03:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:03:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:03:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:03:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:03:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:03:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:03:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:03:51] [Server thread/INFO]: Random Lighting Updates: false
-[20:03:51] [Server thread/INFO]: Structure Info Saving: true
-[20:03:51] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:03:51] [Server thread/INFO]: Max Entity Collisions: 8
-[20:03:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:03:51] [Server thread/INFO]: Max TNT Explosions: 100
-[20:03:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:03:51] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:03:51] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:03:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:03:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:03:51] [Server thread/INFO]: View Distance: 10
-[20:03:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:03:51] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:03:51] [Server thread/INFO]: Clear tick list: false
-[20:03:51] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:03:51] [Server thread/INFO]: Preparing start region for level 3 (Seed: -8496480353822907587)
-[20:03:52] [Server thread/INFO]: Preparing spawn area for Winter, 73%
-[20:03:53] [Server thread/INFO]: [WorldGuard] (Winter) TNT ignition is PERMITTED.
-[20:03:53] [Server thread/INFO]: [WorldGuard] (Winter) Lighters are PERMITTED.
-[20:03:53] [Server thread/INFO]: [WorldGuard] (Winter) Lava fire is blocked.
-[20:03:53] [Server thread/INFO]: [WorldGuard] (Winter) Fire spread is UNRESTRICTED.
-[20:03:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Winter'
-[20:03:53] [Server thread/INFO]: -------- World Settings For [Sommer] --------
-[20:03:53] [Server thread/INFO]: Mob Spawn Range: 4
-[20:03:53] [Server thread/INFO]: Anti X-Ray: true
-[20:03:53] [Server thread/INFO]: 	Engine Mode: 1
-[20:03:53] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:03:53] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:03:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:03:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:03:53] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:03:53] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:03:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:03:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:03:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:03:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:03:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:03:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:03:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:03:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:03:53] [Server thread/INFO]: Random Lighting Updates: false
-[20:03:53] [Server thread/INFO]: Structure Info Saving: true
-[20:03:53] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:03:53] [Server thread/INFO]: Max Entity Collisions: 8
-[20:03:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:03:53] [Server thread/INFO]: Max TNT Explosions: 100
-[20:03:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:03:53] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:03:53] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:03:53] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:03:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:03:53] [Server thread/INFO]: View Distance: 10
-[20:03:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:03:53] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:03:53] [Server thread/INFO]: Clear tick list: false
-[20:03:53] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:03:53] [Server thread/INFO]: Preparing start region for level 4 (Seed: -4448170085324254639)
-[20:03:54] [Server thread/INFO]: Preparing spawn area for Sommer, 56%
-[20:03:54] [Server thread/INFO]: [WorldGuard] (Sommer) TNT ignition is PERMITTED.
-[20:03:54] [Server thread/INFO]: [WorldGuard] (Sommer) Lighters are PERMITTED.
-[20:03:54] [Server thread/INFO]: [WorldGuard] (Sommer) Lava fire is blocked.
-[20:03:54] [Server thread/INFO]: [WorldGuard] (Sommer) Fire spread is UNRESTRICTED.
-[20:03:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Sommer'
-[20:03:55] [Server thread/INFO]: -------- World Settings For [Spawn] --------
-[20:03:55] [Server thread/INFO]: Mob Spawn Range: 4
-[20:03:55] [Server thread/INFO]: Anti X-Ray: true
-[20:03:55] [Server thread/INFO]: 	Engine Mode: 1
-[20:03:55] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:03:55] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:03:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:03:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:03:55] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:03:55] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:03:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:03:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:03:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:03:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:03:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:03:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:03:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:03:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:03:55] [Server thread/INFO]: Random Lighting Updates: false
-[20:03:55] [Server thread/INFO]: Structure Info Saving: true
-[20:03:55] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:03:55] [Server thread/INFO]: Max Entity Collisions: 8
-[20:03:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:03:55] [Server thread/INFO]: Max TNT Explosions: 100
-[20:03:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:03:55] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:03:55] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:03:55] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:03:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:03:55] [Server thread/INFO]: View Distance: 10
-[20:03:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:03:55] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:03:55] [Server thread/INFO]: Clear tick list: false
-[20:03:55] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:03:55] [Server thread/INFO]: Preparing start region for level 5 (Seed: 2802407702613016288)
-[20:03:55] [Server thread/INFO]: [WorldGuard] (Spawn) TNT ignition is PERMITTED.
-[20:03:55] [Server thread/INFO]: [WorldGuard] (Spawn) Lighters are PERMITTED.
-[20:03:55] [Server thread/INFO]: [WorldGuard] (Spawn) Lava fire is blocked.
-[20:03:55] [Server thread/INFO]: [WorldGuard] (Spawn) Fire spread is UNRESTRICTED.
-[20:03:55] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn'
-[20:03:55] [Server thread/INFO]: -------- World Settings For [Fruhling] --------
-[20:03:55] [Server thread/INFO]: Mob Spawn Range: 4
-[20:03:55] [Server thread/INFO]: Anti X-Ray: true
-[20:03:55] [Server thread/INFO]: 	Engine Mode: 1
-[20:03:55] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:03:55] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:03:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:03:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:03:55] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:03:55] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:03:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:03:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:03:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:03:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:03:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:03:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:03:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:03:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:03:55] [Server thread/INFO]: Random Lighting Updates: false
-[20:03:55] [Server thread/INFO]: Structure Info Saving: true
-[20:03:55] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:03:55] [Server thread/INFO]: Max Entity Collisions: 8
-[20:03:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:03:55] [Server thread/INFO]: Max TNT Explosions: 100
-[20:03:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:03:55] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:03:55] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:03:55] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:03:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:03:55] [Server thread/INFO]: View Distance: 10
-[20:03:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:03:55] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:03:55] [Server thread/INFO]: Clear tick list: false
-[20:03:55] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:03:55] [Server thread/INFO]: Preparing start region for level 6 (Seed: -8046834873152880145)
-[20:03:56] [Server thread/INFO]: [WorldGuard] (Fruhling) TNT ignition is PERMITTED.
-[20:03:56] [Server thread/INFO]: [WorldGuard] (Fruhling) Lighters are PERMITTED.
-[20:03:56] [Server thread/INFO]: [WorldGuard] (Fruhling) Lava fire is blocked.
-[20:03:56] [Server thread/INFO]: [WorldGuard] (Fruhling) Fire spread is UNRESTRICTED.
-[20:03:56] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Fruhling'
-[20:03:56] [Server thread/INFO]: [Multiverse-Core] 7 - World(s) loaded.
-[20:03:56] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b719 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
-[20:03:56] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild vTeamCity
-[20:03:56] [Server thread/INFO]: [ServerSigns] Enabling ServerSigns v4.5.1
-[20:03:57] [Server thread/INFO]: [ServerSigns] Unable to load Vault dependency - certain economy and permission features will be disabled
-[20:03:57] [Server thread/INFO]: [ServerSigns] Please download Vault at http://dev.bukkit.org/server-mods/vault/ for Economy and "Permission grant" support.
-[20:03:57] [Server thread/INFO]: [ServerSigns] Version 4.5.1 is now enabled.
-[20:03:57] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v2.5.0-SNAPSHOT-b418
-[20:03:57] [Server thread/INFO]: [Multiverse-Inventories 2.5.0-SNAPSHOT-b418] enabled.
-[20:03:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:03:57] [Server thread/INFO]: Done (17.155s)! For help, type "help" or "?"
-[20:03:57] [Server thread/INFO]: Starting remote control listener
-[20:03:57] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:65535
-[20:04:05] [Server thread/INFO]: [Essentials] Found new UUID for SryForBeingGay. Replacing 6060ee75-033c-34b9-8269-53f459595e44 with af6718ae-82b8-4c41-a28e-a555707fa868
-[20:04:05] [Server thread/INFO]: SryForBeingGay[/178.113.167.234:26123] logged in with entity id 608 at ([Winter]-832.3000000119209, 84.0, -1115.256224132312)
-[20:04:05] [Server thread/INFO]: [Essentials] Found new UUID for CopperCookie. Replacing 478d551f-9329-3fec-9061-d525eca0e6a0 with 557e709f-a4c1-4ba8-930e-c7e416d38c0e
-[20:04:05] [Server thread/INFO]: CopperCookie[/178.115.129.120:4720] logged in with entity id 609 at ([Winter]-807.10169740015, 63.0, -1128.7174729461249)
-[20:04:17] [Server thread/INFO]: CopperCookie issued server command: /hub
-[20:04:19] [Server thread/INFO]: CopperCookie issued server command: /l
-[20:04:21] [Server thread/INFO]: CopperCookie issued server command: /lobby
-[20:04:22] [Async Chat Thread - #0/INFO]: [Winter][Admin]SryForBeingGay: g
-[20:04:23] [Server thread/INFO]: CopperCookie issued server command: /spawn
-[20:04:27] [Server thread/INFO]: CopperCookie issued server command: /mv
-[20:04:29] [Server thread/INFO]: SryForBeingGay issued server command: /spawn
-[20:04:40] [Server thread/INFO]: SryForBeingGay issued server command: /mv create
-[20:04:50] [Server thread/INFO]: CopperCookie issued server command: /mv create Pokemon FLAT
-[20:04:56] [Server thread/INFO]: CopperCookie issued server command: /mv create Pokemon NORMAL FLAT
-[20:04:56] [Server thread/INFO]: CopperCookie: Starting creation of world 'Pokemon'...
-[20:04:56] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'Pokemon' - Env: NORMAL - Type: NORMAL
-[20:04:56] [Server thread/INFO]: -------- World Settings For [Pokemon] --------
-[20:04:56] [Server thread/INFO]: Mob Spawn Range: 4
-[20:04:56] [Server thread/INFO]: Anti X-Ray: true
-[20:04:56] [Server thread/INFO]: 	Engine Mode: 1
-[20:04:56] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:04:56] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:04:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:04:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:04:56] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:04:56] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:04:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:04:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:04:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:04:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:04:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:04:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:04:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:04:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:04:56] [Server thread/INFO]: Random Lighting Updates: false
-[20:04:56] [Server thread/INFO]: Structure Info Saving: true
-[20:04:56] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:04:56] [Server thread/INFO]: Max Entity Collisions: 8
-[20:04:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:04:56] [Server thread/INFO]: Max TNT Explosions: 100
-[20:04:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:04:56] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:04:56] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:04:56] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:04:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:04:56] [Server thread/INFO]: View Distance: 10
-[20:04:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:04:56] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:04:56] [Server thread/INFO]: Clear tick list: false
-[20:04:56] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:04:56] [Server thread/INFO]: Preparing start region for level 7 (Seed: 8247543411528358284)
-[20:04:58] [Server thread/INFO]: [WorldGuard] Default configuration file written: /opt/minecraft-server/server/plugins/WorldGuard/worlds/Pokemon/config.yml
-[20:04:58] [Server thread/INFO]: [WorldGuard] Default configuration file written: /opt/minecraft-server/server/plugins/WorldGuard/worlds/Pokemon/blacklist.txt
-[20:04:58] [Server thread/INFO]: [WorldGuard] (Pokemon) TNT ignition is PERMITTED.
-[20:04:58] [Server thread/INFO]: [WorldGuard] (Pokemon) Lighters are PERMITTED.
-[20:04:58] [Server thread/INFO]: [WorldGuard] (Pokemon) Lava fire is blocked.
-[20:04:58] [Server thread/INFO]: [WorldGuard] (Pokemon) Fire spread is UNRESTRICTED.
-[20:04:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Pokemon'
-[20:04:58] [Server thread/INFO]: Preparing spawn area for Pokemon, 3%
-[20:05:00] [Server thread/INFO]: Preparing spawn area for Pokemon, 8%
-[20:05:02] [Server thread/INFO]: Preparing spawn area for Pokemon, 8%
-[20:05:03] [Server thread/INFO]: Preparing spawn area for Pokemon, 12%
-[20:05:04] [Server thread/INFO]: Preparing spawn area for Pokemon, 16%
-[20:05:05] [Server thread/INFO]: Preparing spawn area for Pokemon, 20%
-[20:05:07] [Server thread/INFO]: Preparing spawn area for Pokemon, 20%
-[20:05:08] [Server thread/INFO]: Preparing spawn area for Pokemon, 24%
-[20:05:09] [Server thread/INFO]: Preparing spawn area for Pokemon, 24%
-[20:05:10] [Server thread/INFO]: Preparing spawn area for Pokemon, 28%
-[20:05:11] [Server thread/INFO]: Preparing spawn area for Pokemon, 32%
-[20:05:12] [Server thread/INFO]: Preparing spawn area for Pokemon, 40%
-[20:05:13] [Server thread/INFO]: Preparing spawn area for Pokemon, 40%
-[20:05:14] [Server thread/INFO]: Preparing spawn area for Pokemon, 44%
-[20:05:15] [Server thread/INFO]: Preparing spawn area for Pokemon, 48%
-[20:05:17] [Server thread/INFO]: Preparing spawn area for Pokemon, 53%
-[20:05:18] [Server thread/INFO]: Preparing spawn area for Pokemon, 57%
-[20:05:19] [Server thread/INFO]: Preparing spawn area for Pokemon, 65%
-[20:05:20] [Server thread/INFO]: Preparing spawn area for Pokemon, 65%
-[20:05:21] [Server thread/INFO]: Preparing spawn area for Pokemon, 77%
-[20:05:22] [Server thread/INFO]: Preparing spawn area for Pokemon, 85%
-[20:05:23] [Server thread/INFO]: Preparing spawn area for Pokemon, 93%
-[20:05:24] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
-[20:05:24] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
-[20:05:24] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'Pokemon' is located at: Pokemon:0.00,69.00,0.00:0.00:0.00
-[20:05:25] [Server thread/INFO]: CopperCookie: Complete!
-[20:05:32] [Server thread/INFO]: CopperCookie issued server command: /mv tp Pokemon
-[20:05:38] [Server thread/INFO]: CopperCookie issued server command: /spawn
-[20:05:51] [Server thread/INFO]: CopperCookie issued server command: /mv remove Pokemon
-[20:05:51] [Server thread/INFO]: [Multiverse-Core] World 'Pokemon' was unloaded from memory.
-[20:05:52] [Server thread/INFO]: [Multiverse-Core] World 'Pokemon' was unloaded from memory.
-[20:05:52] [Server thread/INFO]: [Multiverse-Core] World 'Pokemon' was removed from config.yml
-[20:05:59] [Server thread/INFO]: CopperCookie issued server command: /mv create
-[20:06:12] [Server thread/INFO]: CopperCookie issued server command: /mv create Pokemon normal -t flat
-[20:06:19] [Server thread/INFO]: CopperCookie issued server command: /mv create PokemonMap normal -t flat
-[20:06:19] [Server thread/INFO]: CopperCookie: Starting creation of world 'PokemonMap'...
-[20:06:19] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'PokemonMap' - Env: NORMAL - Type: FLAT
-[20:06:19] [Server thread/INFO]: -------- World Settings For [PokemonMap] --------
-[20:06:19] [Server thread/INFO]: Mob Spawn Range: 4
-[20:06:19] [Server thread/INFO]: Anti X-Ray: true
-[20:06:19] [Server thread/INFO]: 	Engine Mode: 1
-[20:06:19] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:06:19] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:06:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:06:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:06:19] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:06:19] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:06:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:06:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:06:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:06:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:06:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:06:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:06:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:06:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:06:19] [Server thread/INFO]: Random Lighting Updates: false
-[20:06:19] [Server thread/INFO]: Structure Info Saving: true
-[20:06:19] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:06:19] [Server thread/INFO]: Max Entity Collisions: 8
-[20:06:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:06:19] [Server thread/INFO]: Max TNT Explosions: 100
-[20:06:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:06:19] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:06:19] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:06:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:06:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:06:19] [Server thread/INFO]: View Distance: 10
-[20:06:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:06:19] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:06:19] [Server thread/INFO]: Clear tick list: false
-[20:06:19] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:06:19] [Server thread/INFO]: Preparing start region for level 7 (Seed: -1545384100673905047)
-[20:06:19] [Server thread/INFO]: [WorldGuard] Default configuration file written: /opt/minecraft-server/server/plugins/WorldGuard/worlds/PokemonMap/config.yml
-[20:06:19] [Server thread/INFO]: [WorldGuard] Default configuration file written: /opt/minecraft-server/server/plugins/WorldGuard/worlds/PokemonMap/blacklist.txt
-[20:06:19] [Server thread/INFO]: [WorldGuard] (PokemonMap) TNT ignition is PERMITTED.
-[20:06:19] [Server thread/INFO]: [WorldGuard] (PokemonMap) Lighters are PERMITTED.
-[20:06:19] [Server thread/INFO]: [WorldGuard] (PokemonMap) Lava fire is blocked.
-[20:06:19] [Server thread/INFO]: [WorldGuard] (PokemonMap) Fire spread is UNRESTRICTED.
-[20:06:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'PokemonMap'
-[20:06:20] [Server thread/INFO]: Preparing spawn area for PokemonMap, 32%
-[20:06:21] [Server thread/INFO]: Preparing spawn area for PokemonMap, 77%
-[20:06:22] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
-[20:06:22] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
-[20:06:22] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'PokemonMap' is located at: PokemonMap:1.50,4.00,0.50:0.00:0.00
-[20:06:22] [Server thread/INFO]: CopperCookie: Complete!
-[20:06:26] [Server thread/INFO]: CopperCookie issued server command: /mv tp PokemonMap
-[20:06:27] [Server thread/INFO]: SryForBeingGay issued server command: /mvtp Pokemonmap
-[20:06:31] [Server thread/INFO]: CopperCookie issued server command: /gamemode 1
-[20:06:32] [Server thread/INFO]: SryForBeingGay issued server command: /mvtp Pokemonmap
-[20:07:20] [Server thread/INFO]: SryForBeingGay issued server command: /gamrule domobspawn false
-[20:07:24] [Server thread/INFO]: SryForBeingGay issued server command: /gamerule domobspawn false
-[20:07:24] [Server thread/INFO]: [SryForBeingGay: Game rule has been updated]
-[20:07:31] [Server thread/INFO]: SryForBeingGay issued server command: /killall all
-[20:07:34] [Server thread/INFO]: SryForBeingGay issued server command: /killall all
-[20:07:34] [Server thread/INFO]: SryForBeingGay issued server command: /killall all
-[20:07:35] [Server thread/INFO]: SryForBeingGay issued server command: /killall all
-[20:07:44] [Server thread/INFO]: SryForBeingGay issued server command: /gm 1
-[20:08:13] [Server thread/INFO]: CopperCookie issued server command: /kill @e[type=slime]
-[20:08:19] [Server thread/INFO]: SryForBeingGay issued server command: /gm 1
-[20:08:21] [Server thread/INFO]: SryForBeingGay issued server command: /killall all
-[20:08:27] [Server thread/INFO]: SryForBeingGay issued server command: /gamerule domobspawn deny
-[20:08:27] [Server thread/INFO]: [SryForBeingGay: Game rule has been updated]
-[20:08:29] [Server thread/INFO]: SryForBeingGay issued server command: /killall all
-[20:08:40] [Server thread/INFO]: SryForBeingGay issued server command: /killall all
-[20:08:45] [Server thread/INFO]: CopperCookie issued server command: //butcher
-[20:08:47] [Server thread/INFO]: CopperCookie issued server command: //butcher
-[20:08:49] [Server thread/INFO]: CopperCookie issued server command: //butcher
-[20:08:53] [Server thread/INFO]: CopperCookie issued server command: //butcher
-[20:09:02] [Server thread/INFO]: CopperCookie issued server command: /gamerule doMobSpawning false
-[20:09:02] [Server thread/INFO]: [CopperCookie: Game rule has been updated]
-[20:09:04] [Server thread/INFO]: CopperCookie issued server command: //butcher
-[20:09:18] [Async Chat Thread - #1/INFO]: [PokemonMap][Admin]SryForBeingGay: ./gamerule domobspawn false
-[20:09:19] [Server thread/INFO]: CopperCookie issued server command: //butcher
-[20:09:42] [Server thread/INFO]: SryForBeingGay issued server command: //wand
-[20:09:56] [Server thread/INFO]: CopperCookie issued server command: //pos2
-[20:10:02] [Server thread/INFO]: CopperCookie issued server command: //replace 0
-[20:10:12] [Server thread/INFO]: SryForBeingGay issued server command: //set grass
-[20:10:23] [Server thread/INFO]: CopperCookie issued server command: //pos1
-[20:10:26] [Server thread/INFO]: SryForBeingGay issued server command: //set grass
-[20:10:29] [Server thread/INFO]: CopperCookie issued server command: //pos2
-[20:10:30] [Server thread/INFO]: CopperCookie issued server command: //replace 0
-[20:10:33] [Server thread/INFO]: SryForBeingGay issued server command: //set grass
-[20:10:36] [Server thread/INFO]: SryForBeingGay issued server command: //set grass
-[20:10:55] [Server thread/INFO]: SryForBeingGay issued server command: /speed 5
-[20:11:05] [Server thread/INFO]: SryForBeingGay issued server command: //pos2
-[20:11:07] [Server thread/INFO]: SryForBeingGay issued server command: //set 0
-[20:11:15] [Server thread/INFO]: SryForBeingGay issued server command: //set grass
-[20:11:20] [Server thread/INFO]: SryForBeingGay issued server command: //set grass
-[20:11:30] [Server thread/INFO]: SryForBeingGay issued server command: //set grass
-[20:11:36] [Server thread/INFO]: SryForBeingGay issued server command: /killall villager
-[20:11:37] [Server thread/ERROR]: Command killall failed:
-java.lang.NoSuchFieldError: ELDER_GUARDIAN
-	at com.earth2me.essentials.Mob.<clinit>(Mob.java:60) ~[Essentials-2.x-SNAPSHOT.jar:?]
-	at com.earth2me.essentials.commands.Commandremove.removeHandler(Commandremove.java:126) ~[Essentials-2.x-SNAPSHOT.jar:?]
-	at com.earth2me.essentials.commands.Commandremove.parseCommand(Commandremove.java:103) ~[Essentials-2.x-SNAPSHOT.jar:?]
-	at com.earth2me.essentials.commands.Commandremove.run(Commandremove.java:50) ~[Essentials-2.x-SNAPSHOT.jar:?]
-	at com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:180) ~[Essentials-2.x-SNAPSHOT.jar:?]
-	at com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:526) [Essentials-2.x-SNAPSHOT.jar:?]
-	at com.earth2me.essentials.Essentials.onCommand(Essentials.java:401) [Essentials-2.x-SNAPSHOT.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) [run.jar:git-Spigot-db6de12-18fbb24]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) [run.jar:git-Spigot-db6de12-18fbb24]
-	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:641) [run.jar:git-Spigot-db6de12-18fbb24]
-	at net.minecraft.server.v1_8_R3.PlayerConnection.handleCommand(PlayerConnection.java:1162) [run.jar:git-Spigot-db6de12-18fbb24]
-	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:997) [run.jar:git-Spigot-db6de12-18fbb24]
-	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:45) [run.jar:git-Spigot-db6de12-18fbb24]
-	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:1) [run.jar:git-Spigot-db6de12-18fbb24]
-	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) [run.jar:git-Spigot-db6de12-18fbb24]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
-	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) [run.jar:git-Spigot-db6de12-18fbb24]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715) [run.jar:git-Spigot-db6de12-18fbb24]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [run.jar:git-Spigot-db6de12-18fbb24]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [run.jar:git-Spigot-db6de12-18fbb24]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [run.jar:git-Spigot-db6de12-18fbb24]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[20:11:41] [Server thread/INFO]: SryForBeingGay issued server command: /killall all
-[20:11:51] [Async Chat Thread - #2/INFO]: [PokemonMap][Admin]SryForBeingGay: 252345972
-[20:12:04] [Server thread/INFO]: SryForBeingGay issued server command: /mvtp Pokemonmap
-[20:12:21] [Server thread/INFO]: SryForBeingGay issued server command: /speed 1
-[20:17:24] [Server thread/INFO]: SryForBeingGay issued server command: /time set day
-[20:17:31] [Server thread/INFO]: SryForBeingGay issued server command: /gamerule doDaylightCycle false
-[20:17:31] [Server thread/INFO]: [SryForBeingGay: Game rule has been updated]
-[20:18:46] [Server thread/INFO]: SryForBeingGay issued server command: //set 0
-[20:19:09] [Server thread/INFO]: SryForBeingGay issued server command: //set grass
-[20:20:06] [Server thread/INFO]: SryForBeingGay issued server command: //set 1:6
-[20:20:15] [Server thread/INFO]: SryForBeingGay issued server command: //set 0
-[20:20:24] [Server thread/INFO]: SryForBeingGay issued server command: //set 5
-[20:21:25] [Server thread/INFO]: SryForBeingGay issued server command: //set 1:6
-[20:23:14] [Server thread/INFO]: SryForBeingGay issued server command: //set 1:6
-[20:24:01] [Server thread/INFO]: SryForBeingGay issued server command: //set grass
-[20:27:38] [Server thread/INFO]: CopperCookie issued server command: /time set 8600
-[20:27:44] [Server thread/INFO]: CopperCookie issued server command: /time set 6800
-[20:27:48] [Server thread/INFO]: CopperCookie issued server command: /time set 6500
-[20:27:52] [Server thread/INFO]: CopperCookie issued server command: /time set 6300
-[20:27:55] [Server thread/INFO]: CopperCookie issued server command: /time set 6200
-[20:28:02] [Server thread/INFO]: CopperCookie issued server command: /time set 6100
-[20:28:06] [Server thread/INFO]: SryForBeingGay issued server command: /time set gay
-[20:31:00] [Server thread/INFO]: SryForBeingGay issued server command: //set water
-[20:31:27] [Server thread/INFO]: SryForBeingGay issued server command: //set grass
-[20:31:38] [Server thread/INFO]: SryForBeingGay issued server command: //set 155:1
-[20:31:47] [Server thread/INFO]: SryForBeingGay issued server command: //set 155:1
-[20:32:46] [Server thread/INFO]: SryForBeingGay issued server command: //set 155:1
-[20:32:59] [Server thread/INFO]: SryForBeingGay issued server command: //set 155:1
-[20:34:37] [Server thread/INFO]: SryForBeingGay issued server command: //set water
-[20:34:49] [Server thread/INFO]: SryForBeingGay issued server command: //undo
-[20:34:53] [Server thread/INFO]: SryForBeingGay issued server command: //set water
-[20:35:12] [Server thread/INFO]: SryForBeingGay issued server command: //set 155:1
-[20:35:19] [Server thread/INFO]: SryForBeingGay issued server command: //set 155:1
-[20:35:21] [Server thread/INFO]: CopperCookie issued server command: //replace 1:2
-[20:35:24] [Server thread/INFO]: CopperCookie issued server command: //replace 1:4
-[20:35:26] [Server thread/INFO]: CopperCookie issued server command: //replace 1:6
-[20:36:02] [Server thread/INFO]: SryForBeingGay issued server command: //copy
-[20:36:12] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:36:24] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:38:04] [Server thread/INFO]: SryForBeingGay issued server command: //copy
-[20:38:16] [Server thread/INFO]: SryForBeingGay issued server command: //copy
-[20:38:21] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:38:30] [Server thread/INFO]: SryForBeingGay issued server command: //undo
-[20:38:38] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:38:50] [Server thread/INFO]: SryForBeingGay issued server command: /undo
-[20:40:22] [Server thread/INFO]: SryForBeingGay issued server command: //copy
-[20:40:28] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:40:42] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:40:47] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:40:51] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:40:57] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:41:05] [Server thread/INFO]: SryForBeingGay issued server command: //set grass
-[20:41:42] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:41:49] [Server thread/INFO]: SryForBeingGay issued server command: //undo
-[20:41:50] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:41:59] [Server thread/INFO]: SryForBeingGay issued server command: /undo
-[20:42:00] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:42:23] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:42:46] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:42:52] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:43:02] [Server thread/INFO]: SryForBeingGay issued server command: /undo
-[20:43:03] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:43:41] [Server thread/INFO]: SryForBeingGay issued server command: //set grass
-[20:43:56] [Server thread/INFO]: SryForBeingGay issued server command: //copy
-[20:44:10] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:44:19] [Server thread/INFO]: SryForBeingGay issued server command: /undo
-[20:44:20] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:44:27] [Server thread/INFO]: SryForBeingGay issued server command: //undo
-[20:44:28] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:44:35] [Server thread/INFO]: SryForBeingGay issued server command: /undo
-[20:44:39] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:44:44] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:44:51] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:44:54] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:44:56] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:45:11] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:45:16] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:45:27] [Server thread/INFO]: SryForBeingGay issued server command: //set 155:1
-[20:45:33] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:45:35] [Server thread/INFO]: SryForBeingGay issued server command: /undo
-[20:45:37] [Server thread/INFO]: SryForBeingGay issued server command: //set grass
-[20:54:59] [Server thread/INFO]: SryForBeingGay issued server command: //set 159:4
-[20:55:05] [Server thread/INFO]: SryForBeingGay issued server command: //set 159:4
-[20:57:07] [Server thread/INFO]: SryForBeingGay issued server command: //set 159:4
-[20:57:11] [Server thread/INFO]: SryForBeingGay issued server command: /undo
-[20:57:18] [Server thread/INFO]: SryForBeingGay issued server command: //set 1:4
-[20:57:23] [Server thread/INFO]: SryForBeingGay issued server command: //set 1:4
-[20:57:26] [Server thread/INFO]: SryForBeingGay issued server command: //set 1:4
-[20:57:30] [Server thread/INFO]: SryForBeingGay issued server command: //set 1:4
-[20:58:11] [Server thread/INFO]: SryForBeingGay issued server command: //copy
-[20:58:22] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:58:24] [Server thread/INFO]: SryForBeingGay issued server command: //undo
-[20:58:31] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:58:43] [Server thread/INFO]: SryForBeingGay issued server command: /undo
-[20:58:59] [Server thread/INFO]: SryForBeingGay issued server command: //copy
-[20:59:05] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:59:13] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:59:20] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[20:59:32] [Server thread/INFO]: SryForBeingGay issued server command: //set 1:4
-[20:59:38] [Server thread/INFO]: SryForBeingGay issued server command: //set 1:4#
-[20:59:39] [Server thread/INFO]: SryForBeingGay issued server command: //set 1:4
-[20:59:45] [Server thread/INFO]: SryForBeingGay issued server command: //set 1:4
-[20:59:50] [Server thread/INFO]: SryForBeingGay issued server command: //set 1:4
-[20:59:53] [Server thread/INFO]: SryForBeingGay issued server command: /undo
-[20:59:58] [Server thread/INFO]: SryForBeingGay issued server command: //replace 0 1:4
-[21:00:21] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[21:00:41] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[21:00:56] [Server thread/INFO]: SryForBeingGay issued server command: //replace 0 1:4
-[21:01:02] [Server thread/INFO]: SryForBeingGay issued server command: //replace 0 1:4
-[21:01:06] [Server thread/INFO]: SryForBeingGay issued server command: //replace 0 1:4
-[21:01:10] [Server thread/INFO]: SryForBeingGay issued server command: //replace 0 1:4
-[21:03:23] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[21:03:31] [Server thread/INFO]: SryForBeingGay issued server command: //paste
-[21:04:08] [Server thread/INFO]: SryForBeingGay issued server command: //replace 0 1:4
-[21:04:14] [Server thread/INFO]: SryForBeingGay issued server command: //replace 0 1:4
-[21:04:18] [Server thread/INFO]: SryForBeingGay issued server command: //replace 0 1:4
-[21:04:22] [Server thread/INFO]: SryForBeingGay issued server command: //replace 0 1:4
-[21:05:14] [Server thread/INFO]: SryForBeingGay issued server command: /op
-[21:05:26] [Server thread/INFO]: SryForBeingGay issued server command: /deop ThunderPlumber
-[21:05:26] [Server thread/INFO]: [SryForBeingGay: De-opped ThunderPlumber]
-[21:07:15] [Server thread/INFO]: SryForBeingGay issued server command: //set 159:11
-[21:07:35] [User Authenticator #3/INFO]: UUID of player VocalZero is 649d939c-041d-4ccf-83b4-5a2a573f337a
-[21:07:39] [Server thread/INFO]: VocalZero[/87.166.209.130:56730] logged in with entity id 165337 at ([world]-170.5, 72.0, 248.5)
-[21:07:39] [pool-10-thread-1/INFO]: Creating empty config: /opt/minecraft-server/server/plugins/Essentials/userdata/649d939c-041d-4ccf-83b4-5a2a573f337a.yml
-[21:07:40] [Server thread/INFO]: CommandBlock at -174,68,249 issued server command: /msg VocalZero &6good luck & have fun
-[21:07:44] [Async Chat Thread - #3/INFO]: [PokemonMap][Admin]SryForBeingGay: haloa
-[21:07:52] [Server thread/INFO]: SryForBeingGay issued server command: /tp VocalZero
-[21:08:24] [Server thread/INFO]: SryForBeingGay issued server command: /back
-[21:08:35] [Server thread/INFO]: SryForBeingGay issued server command: //replace 1:4
-[21:08:39] [Server thread/INFO]: SryForBeingGay issued server command: /undo
-[21:08:42] [Server thread/INFO]: SryForBeingGay issued server command: //replace 0 1:4
-[21:09:17] [Server thread/INFO]: SryForBeingGay issued server command: //set glowstone
-[21:09:18] [Server thread/INFO]: VocalZero lost connection: Disconnected
-[21:09:19] [Server thread/INFO]: VocalZero left the game.
-[21:09:40] [User Authenticator #4/INFO]: UUID of player Fenske is fed29566-825e-4f90-9f1d-d1552c752e18
-[21:09:40] [Server thread/INFO]: Fenske[/84.175.29.52:55423] logged in with entity id 222417 at ([world]-171.5, 76.0, 247.5)
-[21:09:40] [pool-10-thread-1/INFO]: Creating empty config: /opt/minecraft-server/server/plugins/Essentials/userdata/fed29566-825e-4f90-9f1d-d1552c752e18.yml
-[21:09:44] [Server thread/INFO]: SryForBeingGay issued server command: /tp CopperCookie SryForBeingGay
-[21:09:48] [Async Chat Thread - #4/INFO]: [PokemonMap][Admin]SryForBeingGay: Hey
-[21:09:49] [Server thread/INFO]: CopperCookie issued server command: /kick Fenske
-[21:09:49] [Server thread/INFO]: Fenske lost connection: Kicked from server.
-[21:09:49] [Server thread/INFO]: Fenske left the game.
-[21:09:50] [Server thread/INFO]: §6Player§c §8§l[§c§lAdmin§8§l]§7§7CopperCookie§r §6kicked Fenske for Kicked from server..
-[21:09:50] [Server thread/WARN]: handleDisconnection() called twice
-[21:09:52] [User Authenticator #5/INFO]: UUID of player Fenske is fed29566-825e-4f90-9f1d-d1552c752e18
-[21:09:52] [Server thread/INFO]: Fenske[/84.175.29.52:55431] logged in with entity id 227337 at ([Spawn]1.5722307040396228, 4.0, 1.0470703269856771)
-[21:10:00] [Async Chat Thread - #4/INFO]: [PokemonMap][Admin]SryForBeingGay: Wer bist du
-[21:10:10] [Async Chat Thread - #4/INFO]: [Spawn][Gast]Fenske: N Kumpel von VocalZero
-[21:10:17] [Async Chat Thread - #4/INFO]: [PokemonMap][Admin]SryForBeingGay: und was wollt ihr hier?
-[21:10:24] [Server thread/INFO]: Fenske lost connection: Disconnected
-[21:10:25] [Server thread/INFO]: Fenske left the game.
-[21:10:25] [Server thread/INFO]: SryForBeingGay issued server command: /pex group default
-[21:10:35] [Server thread/INFO]: SryForBeingGay issued server command: /pl
-[21:11:15] [Server thread/INFO]: CopperCookie issued server command: /clear
-[21:11:51] [Server thread/INFO]: CopperCookie issued server command: //replace 0
-[21:11:53] [Server thread/INFO]: SryForBeingGay issued server command: //set water
-[21:12:05] [Server thread/INFO]: SryForBeingGay issued server command: //set lapis_block
-[21:12:23] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
-[21:12:29] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
-[21:12:35] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
-[21:12:38] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
-[21:12:40] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
-[21:12:46] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
-[21:14:55] [Server thread/INFO]: CopperCookie lost connection: Disconnected
-[21:14:55] [Server thread/INFO]: CopperCookie left the game.
-[21:21:57] [Server thread/INFO]: SryForBeingGay issued server command: /pex group
-[21:22:20] [Server thread/INFO]: SryForBeingGay lost connection: Disconnected
-[21:22:20] [Server thread/INFO]: SryForBeingGay left the game.
+[07:07:26] [User Authenticator #6/INFO]: UUID of player CopperCookie is 557e709f-a4c1-4ba8-930e-c7e416d38c0e
+[07:07:28] [Server thread/INFO]: CopperCookie[/77.119.128.79:6516] logged in with entity id 247962 at ([PokemonMap]5.337088774748657, 6.1996955149077655, 20.497429020947802)
+[07:07:33] [Server thread/INFO]: CopperCookie issued server command: /gm 1
+[07:12:32] [Server thread/INFO]: CopperCookie issued server command: /weather clear
+[07:12:36] [Server thread/INFO]: CopperCookie issued server command: /we
+[07:17:55] [Server thread/INFO]: CopperCookie issued server command: //replace 155 1:4
+[07:18:01] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:18:27] [Server thread/INFO]: CopperCookie issued server command: //replace 155 polished_diorit
+[07:18:30] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:18:59] [Server thread/INFO]: CopperCookie issued server command: //replace quartz_block stone4
+[07:19:08] [Server thread/INFO]: CopperCookie issued server command: //replace quartz_block stone4
+[07:19:18] [Server thread/INFO]: CopperCookie issued server command: //replace quartz_block polished_diorit
+[07:19:24] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:19:30] [Server thread/INFO]: CopperCookie issued server command: //replace quartz_block polished_diorit
+[07:19:34] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:19:41] [Server thread/INFO]: CopperCookie issued server command: //replace 155 1:4
+[07:23:36] [Server thread/INFO]: CopperCookie issued server command: //place 1:4
+[07:23:44] [Server thread/INFO]: CopperCookie issued server command: //replace 1:4
+[07:23:52] [Server thread/INFO]: CopperCookie issued server command: //set 1:4
+[07:26:07] [Server thread/INFO]: CopperCookie issued server command: //set 1:4
+[07:33:38] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[07:33:41] [Server thread/INFO]: CopperCookie issued server command: //copy
+[07:33:49] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:33:52] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:33:57] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:34:03] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:34:10] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:34:12] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:34:14] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:34:15] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:34:16] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:34:29] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:34:31] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:34:32] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:34:35] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:34:36] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:34:39] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:34:45] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:35:03] [Server thread/INFO]: CopperCookie issued server command: /pos2
+[07:35:14] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[07:35:19] [Server thread/INFO]: CopperCookie issued server command: //copy
+[07:35:22] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:35:29] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:35:35] [Server thread/INFO]: CopperCookie issued server command: //copy
+[07:35:40] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:35:43] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:35:47] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:36:03] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:36:05] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:36:11] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:37:32] [Server thread/INFO]: CopperCookie issued server command: //move
+[07:37:37] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:37:42] [Server thread/INFO]: CopperCookie issued server command: //move
+[07:37:45] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:38:00] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[07:38:07] [Server thread/INFO]: CopperCookie issued server command: //copy
+[07:38:35] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[07:38:39] [Server thread/INFO]: CopperCookie issued server command: //replace 0
+[07:42:59] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[07:43:11] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[07:45:04] [Server thread/INFO]: CopperCookie issued server command: //pos1
+[07:45:14] [Server thread/INFO]: CopperCookie issued server command: //copy
+[07:45:18] [Server thread/INFO]: CopperCookie issued server command: //copy
+[07:45:24] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:46:36] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[07:46:51] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[07:46:58] [Server thread/INFO]: CopperCookie issued server command: //copy
+[07:47:08] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:47:13] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:47:43] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:48:04] [Server thread/INFO]: CopperCookie issued server command: /weather clear
+[07:48:19] [Server thread/INFO]: CopperCookie issued server command: //pos1
+[07:52:22] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[07:52:31] [Server thread/INFO]: CopperCookie issued server command: //copy
+[07:52:41] [Server thread/INFO]: CopperCookie issued server command: /paste
+[07:52:45] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:52:50] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:52:52] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:52:57] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:53:01] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:53:10] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:53:11] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:53:15] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:53:21] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:53:23] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:53:25] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:53:32] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:53:35] [Server thread/INFO]: CopperCookie issued server command: /undo
+[07:53:37] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:53:48] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:54:02] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:54:08] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:54:20] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:54:25] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:54:34] [Server thread/INFO]: CopperCookie issued server command: //paste
+[07:54:57] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[07:55:22] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[07:58:06] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[07:58:16] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[07:58:26] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[07:58:30] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[07:58:36] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[07:58:47] [Server thread/INFO]: CopperCookie issued server command: //replace water#
+[07:58:49] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[07:58:57] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[07:59:05] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[07:59:52] [Server thread/INFO]: CopperCookie issued server command: //pos1
+[07:59:55] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[08:00:01] [Server thread/INFO]: CopperCookie issued server command: //replace sand endstone
+[08:00:21] [Server thread/INFO]: CopperCookie issued server command: //replace 24 121 24
+[08:00:26] [Server thread/INFO]: CopperCookie issued server command: //replace 24 121,24
+[08:00:35] [Server thread/INFO]: CopperCookie issued server command: //replace 24 121,24,121
+[08:00:43] [Server thread/INFO]: CopperCookie issued server command: //replace 24 121,24,121
+[08:01:04] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:01:11] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:01:18] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:01:23] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:02:41] [Server thread/INFO]: CopperCookie issued server command: //paste
+[08:02:43] [Server thread/INFO]: CopperCookie issued server command: /undo
+[08:02:57] [Server thread/INFO]: CopperCookie issued server command: //pos1
+[08:03:17] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[08:03:33] [Server thread/INFO]: CopperCookie issued server command: //copy
+[08:03:50] [Server thread/INFO]: CopperCookie issued server command: //paste
+[08:03:54] [Server thread/INFO]: CopperCookie issued server command: /undo
+[08:03:56] [Server thread/INFO]: CopperCookie issued server command: //paste
+[08:04:04] [Server thread/INFO]: CopperCookie issued server command: /undo
+[08:04:13] [Server thread/INFO]: CopperCookie issued server command: //paste
+[08:04:50] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[08:05:28] [Server thread/INFO]: CopperCookie issued server command: //air
+[08:05:31] [Server thread/INFO]: CopperCookie issued server command: //replace air
+[08:05:51] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:05:55] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:06:00] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:06:03] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:06:17] [Server thread/INFO]: CopperCookie issued server command: //replace air
+[08:06:29] [Server thread/INFO]: CopperCookie issued server command: //replace air
+[08:06:31] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:06:36] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:06:42] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:06:47] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:07:02] [Server thread/INFO]: CopperCookie issued server command: //replace air
+[08:07:17] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:07:26] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:07:36] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:07:52] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:08:07] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:08:14] [Server thread/INFO]: CopperCookie issued server command: //set lapis_block
+[08:08:22] [Server thread/INFO]: CopperCookie issued server command: /gamemode 3
+[08:08:24] [Server thread/INFO]: CopperCookie issued server command: /gamemode 1
+[08:09:20] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:09:26] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:09:54] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[08:10:10] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[08:10:48] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:11:00] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[08:11:45] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[08:11:48] [Server thread/INFO]: CopperCookie issued server command: //replace 0
+[08:23:22] [Server thread/INFO]: CopperCookie issued server command: /gm 3
+[08:23:25] [Server thread/INFO]: CopperCookie issued server command: /gm 1
+[08:35:41] [Server thread/INFO]: CopperCookie issued server command: /summon Painting ~ ~ ~ {TileX:528,TileY:60,TileZ:-239,Direction:1,Motive:Void }
+[08:35:41] [Server thread/INFO]: [CopperCookie: Object successfully summoned]
+[08:35:50] [Server thread/INFO]: CopperCookie issued server command: /summon Painting ~ ~ ~ {TileX:528,TileY:60,TileZ:-239,Direction:1,Motive:Void }
+[08:35:50] [Server thread/INFO]: [CopperCookie: Object successfully summoned]
+[08:35:55] [Server thread/INFO]: CopperCookie issued server command: /summon Painting ~ ~ ~ {TileX:528,TileY:60,TileZ:-239,Direction:1,Motive:Fighters}
+[08:35:55] [Server thread/INFO]: [CopperCookie: Object successfully summoned]
+[08:36:05] [Server thread/INFO]: CopperCookie issued server command: /summon Painting ~ ~ ~ {TileX:528,TileY:60,TileZ:-239,Direction:1,Motive:Fighters}
+[08:36:05] [Server thread/INFO]: [CopperCookie: Object successfully summoned]
+[08:36:20] [Server thread/INFO]: CopperCookie issued server command: /summon Painting ~ ~ ~ {TileX:528,TileY:60,TileZ:-239,Direction:1,Motive:Fighters}
+[08:36:20] [Server thread/INFO]: [CopperCookie: Object successfully summoned]
+[08:36:26] [Server thread/INFO]: CopperCookie issued server command: /summon Painting ~ ~ ~ {TileX:528,TileY:60,TileZ:-239,Direction:1,Motive:Fighters}
+[08:36:26] [Server thread/INFO]: [CopperCookie: Object successfully summoned]
+[08:36:29] [Server thread/INFO]: CopperCookie issued server command: /summon Painting ~ ~ ~ {TileX:528,TileY:60,TileZ:-239,Direction:1,Motive:Fighters}
+[08:36:29] [Server thread/INFO]: [CopperCookie: Object successfully summoned]
+[08:50:54] [Server thread/INFO]: CopperCookie lost connection: Disconnected
+[08:50:54] [Server thread/INFO]: CopperCookie left the game.
+[08:53:19] [User Authenticator #7/INFO]: UUID of player CopperCookie is 557e709f-a4c1-4ba8-930e-c7e416d38c0e
+[08:53:19] [Server thread/INFO]: CopperCookie[/77.119.128.79:45011] logged in with entity id 248283 at ([PokemonMap]-21.959263285038425, 7.300819836598522, 7.785575467756319)
+[08:53:23] [Server thread/INFO]: CopperCookie issued server command: /gm1
+[08:53:26] [Server thread/INFO]: CopperCookie issued server command: /gm 1
+[08:55:38] [Server thread/INFO]: CopperCookie issued server command: //pos1
+[08:55:42] [Server thread/INFO]: CopperCookie issued server command: //pos1
+[08:55:47] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[08:56:13] [Server thread/INFO]: CopperCookie issued server command: //replace 0 159:14
+[08:56:17] [Server thread/INFO]: CopperCookie issued server command: /undo
+[08:56:22] [Server thread/INFO]: CopperCookie issued server command: /undo
+[08:56:29] [Server thread/INFO]: CopperCookie issued server command: /redo
+[08:56:38] [Server thread/INFO]: CopperCookie issued server command: //replace 0 159:14
+[08:56:43] [Server thread/INFO]: CopperCookie issued server command: /undo
+[08:56:50] [Server thread/INFO]: CopperCookie issued server command: /undo
+[08:56:52] [Server thread/INFO]: CopperCookie issued server command: /redo
+[08:56:57] [Server thread/INFO]: CopperCookie issued server command: //replace 0 159:14
+[08:58:58] [Server thread/INFO]: CopperCookie lost connection: Disconnected
+[08:58:58] [Server thread/INFO]: CopperCookie left the game.
+[12:09:20] [User Authenticator #8/INFO]: UUID of player CopperCookie is 557e709f-a4c1-4ba8-930e-c7e416d38c0e
+[12:09:37] [Server thread/INFO]: CopperCookie[/77.119.128.79:4071] logged in with entity id 248358 at ([PokemonMap]8.57498685981329, 11.245799184070654, 42.30000001192093)
+[12:11:12] [Server thread/INFO]: CopperCookie issued server command: /gm 1
+[12:12:19] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[12:12:28] [Server thread/INFO]: CopperCookie issued server command: //copy
+[12:12:36] [Server thread/INFO]: CopperCookie issued server command: //paste
+[12:12:40] [Server thread/INFO]: CopperCookie issued server command: /undo
+[12:12:48] [Server thread/INFO]: CopperCookie issued server command: //paste
+[12:12:53] [Server thread/INFO]: CopperCookie issued server command: /undo
+[12:13:10] [Server thread/INFO]: CopperCookie issued server command: //rotate
+[12:13:13] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[12:13:20] [Server thread/INFO]: CopperCookie issued server command: //paste
+[12:13:24] [Server thread/INFO]: CopperCookie issued server command: /undo
+[12:13:26] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[12:13:30] [Server thread/INFO]: CopperCookie issued server command: //paste
+[12:13:37] [Server thread/INFO]: CopperCookie issued server command: /undo
+[12:13:43] [Server thread/INFO]: CopperCookie issued server command: //paste
+[12:13:45] [Server thread/INFO]: CopperCookie issued server command: /undo
+[12:13:48] [Server thread/INFO]: CopperCookie issued server command: //paste
+[12:21:55] [Server thread/INFO]: CopperCookie issued server command: //set sign
+[12:22:00] [Server thread/INFO]: CopperCookie issued server command: //set sign1
+[12:22:02] [Server thread/INFO]: CopperCookie issued server command: //set sign2
+[12:22:06] [Server thread/INFO]: CopperCookie issued server command: //set air
+[12:22:07] [Server thread/INFO]: CopperCookie issued server command: //set sign2
+[12:22:15] [Server thread/INFO]: CopperCookie issued server command: //set sign_north
+[12:22:25] [Server thread/INFO]: CopperCookie issued server command: //set sign
+[12:23:58] [Server thread/INFO]: CopperCookie issued server command: //set sign
+[12:24:04] [Server thread/INFO]: CopperCookie issued server command: //set sign
+[12:24:23] [Server thread/INFO]: CopperCookie issued server command: //set sign
+[12:24:29] [Server thread/INFO]: CopperCookie issued server command: //set sign
+[12:24:34] [Server thread/INFO]: CopperCookie issued server command: //set sign
+[12:25:18] [Server thread/INFO]: CopperCookie issued server command: //set 171:14
+[12:25:22] [Server thread/INFO]: CopperCookie issued server command: //set 171:14
+[12:25:25] [Server thread/INFO]: CopperCookie issued server command: //set 171:14
+[12:25:31] [Server thread/INFO]: CopperCookie issued server command: //set 171:14
+[12:25:35] [Server thread/INFO]: CopperCookie issued server command: //set 171:14
+[12:25:40] [Server thread/INFO]: CopperCookie issued server command: //set 171:14
+[12:26:14] [Server thread/INFO]: CopperCookie issued server command: //set 114
+[12:26:17] [Server thread/INFO]: CopperCookie issued server command: //set 114:1
+[12:26:19] [Server thread/INFO]: CopperCookie issued server command: //set 114:2
+[12:26:21] [Server thread/INFO]: CopperCookie issued server command: //set 114:3
+[12:26:26] [Server thread/INFO]: CopperCookie issued server command: //set 114:3
+[12:26:39] [Server thread/INFO]: CopperCookie issued server command: //set 114:3
+[12:27:22] [Server thread/INFO]: CopperCookie issued server command: /gm 3
+[12:27:23] [Server thread/INFO]: CopperCookie issued server command: /gm 1
+[12:28:18] [Server thread/INFO]: CopperCookie issued server command: //set 156:3
+[12:28:20] [Server thread/INFO]: CopperCookie issued server command: //set 156:4
+[12:28:22] [Server thread/INFO]: CopperCookie issued server command: //set 156:2
+[12:28:40] [Server thread/INFO]: CopperCookie issued server command: //set 156:2
+[12:28:46] [Server thread/INFO]: CopperCookie issued server command: //set 156:2
+[12:28:50] [Server thread/INFO]: CopperCookie issued server command: //set 156:2
+[12:28:54] [Server thread/INFO]: CopperCookie issued server command: //set 156:2
+[12:29:35] [Server thread/INFO]: CopperCookie issued server command: //set 31:1
+[12:32:50] [Server thread/INFO]: CopperCookie issued server command: //set 12
+[12:32:54] [Server thread/INFO]: CopperCookie issued server command: //set 12
+[12:32:59] [Server thread/INFO]: CopperCookie issued server command: //set 12
+[12:33:05] [Server thread/INFO]: CopperCookie issued server command: //set 12
+[12:33:10] [Server thread/INFO]: CopperCookie issued server command: //set 12
+[12:33:12] [Server thread/INFO]: CopperCookie issued server command: //set 12
+[12:34:42] [Server thread/INFO]: CopperCookie issued server command: //replace 12 12,24,121
+[12:45:00] [Server thread/INFO]: CopperCookie lost connection: Disconnected
+[12:45:00] [Server thread/INFO]: CopperCookie left the game.
+[12:45:20] [User Authenticator #9/INFO]: UUID of player CopperCookie is 557e709f-a4c1-4ba8-930e-c7e416d38c0e
+[12:45:21] [Server thread/INFO]: CopperCookie[/77.119.128.79:45001] logged in with entity id 248574 at ([PokemonMap]0.4197051911330606, 24.111749682117555, 21.30182631264346)
+[12:45:27] [Server thread/INFO]: CopperCookie issued server command: /gm 1
+[12:45:31] [Server thread/INFO]: CopperCookie lost connection: Disconnected
+[12:45:31] [Server thread/INFO]: CopperCookie left the game.
+[12:46:05] [User Authenticator #10/INFO]: UUID of player CopperCookie is 557e709f-a4c1-4ba8-930e-c7e416d38c0e
+[12:46:05] [Server thread/INFO]: CopperCookie[/77.119.128.79:6566] logged in with entity id 248575 at ([PokemonMap]-2.0214829067237954, 4.0, 12.900088571593711)
+[12:46:10] [Server thread/INFO]: CopperCookie issued server command: /gm 1
+[12:59:02] [Server thread/INFO]: CopperCookie lost connection: Internal Exception: java.io.IOException: Error while read(...): Connection reset by peer
+[12:59:02] [Server thread/INFO]: CopperCookie left the game.
+[13:02:51] [User Authenticator #11/INFO]: UUID of player CopperCookie is 557e709f-a4c1-4ba8-930e-c7e416d38c0e
+[13:02:51] [Server thread/INFO]: CopperCookie[/77.119.128.79:47433] logged in with entity id 248579 at ([PokemonMap]-1.2691853240765718, 8.247018551184171, 8.382068151438386)
+[13:03:02] [Server thread/INFO]: CopperCookie issued server command: /gm 1
+[13:08:40] [Server thread/INFO]: CopperCookie issued server command: //place 1
+[13:08:45] [Server thread/INFO]: CopperCookie issued server command: //place 1:4
+[13:08:50] [Server thread/INFO]: CopperCookie issued server command: //replace 1:4
+[13:12:32] [Server thread/INFO]: CopperCookie issued server command: //set lapis_block
+[13:12:35] [Server thread/INFO]: CopperCookie issued server command: //set lapis_block
+[13:13:09] [Server thread/INFO]: CopperCookie issued server command: //set 1:4
+[13:13:44] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[13:13:50] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[13:13:57] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[13:14:16] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[13:15:54] [Server thread/INFO]: CopperCookie issued server command: //set 1:4
+[13:24:01] [Server thread/INFO]: CopperCookie lost connection: Disconnected
+[13:24:01] [Server thread/INFO]: CopperCookie left the game.
+[13:24:04] [User Authenticator #12/INFO]: UUID of player CopperCookie is 557e709f-a4c1-4ba8-930e-c7e416d38c0e
+[13:24:05] [Server thread/INFO]: CopperCookie[/77.119.128.79:2796] logged in with entity id 248585 at ([PokemonMap]-9.910388944728453, 22.236999288631278, 35.744868587937376)
+[13:24:26] [Server thread/INFO]: CopperCookie issued server command: /gm 1
+[14:45:13] [Server thread/INFO]: CopperCookie issued server command: //set lapis_block
+[14:51:39] [Server thread/INFO]: CopperCookie issued server command: //set garss
+[14:51:41] [Server thread/INFO]: CopperCookie issued server command: //set grass
+[14:52:35] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[14:52:43] [Server thread/INFO]: CopperCookie issued server command: //copy
+[14:52:52] [Server thread/INFO]: CopperCookie issued server command: //paste
+[14:52:55] [Server thread/INFO]: CopperCookie issued server command: /undo
+[14:53:05] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[14:53:08] [Server thread/INFO]: CopperCookie issued server command: //paste
+[14:53:11] [Server thread/INFO]: CopperCookie issued server command: /undo
+[14:53:17] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[14:53:19] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[14:53:27] [Server thread/INFO]: CopperCookie issued server command: //paste
+[14:55:40] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[14:55:43] [Server thread/INFO]: CopperCookie issued server command: //paste
+[14:55:46] [Server thread/INFO]: CopperCookie issued server command: /undo
+[14:55:51] [Server thread/INFO]: CopperCookie issued server command: //paste
+[14:55:53] [Server thread/INFO]: CopperCookie issued server command: /undo
+[14:55:56] [Server thread/INFO]: CopperCookie issued server command: /undo
+[14:56:00] [Server thread/INFO]: CopperCookie issued server command: /redo
+[14:56:02] [Server thread/INFO]: CopperCookie issued server command: //paste
+[14:56:33] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[14:56:34] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[14:56:36] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[14:56:37] [Server thread/INFO]: CopperCookie issued server command: //paste
+[14:57:14] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[14:57:18] [Server thread/INFO]: CopperCookie issued server command: //paste
+[14:57:23] [Server thread/INFO]: CopperCookie issued server command: /undo
+[14:57:25] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[14:57:26] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[14:57:27] [Server thread/INFO]: CopperCookie issued server command: //paste
+[14:57:39] [Server thread/INFO]: CopperCookie issued server command: /undo
+[14:57:44] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[14:57:51] [Server thread/INFO]: CopperCookie issued server command: //paste
+[14:58:00] [Server thread/INFO]: CopperCookie issued server command: //paste
+[14:58:09] [Server thread/INFO]: CopperCookie issued server command: /undo
+[14:58:20] [Server thread/INFO]: CopperCookie issued server command: /undo
+[14:58:24] [Server thread/INFO]: CopperCookie issued server command: /redo
+[14:58:28] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[14:58:30] [Server thread/INFO]: CopperCookie issued server command: //paste
+[14:58:33] [Server thread/INFO]: CopperCookie issued server command: /undo
+[14:58:35] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[14:58:36] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[14:58:38] [Server thread/INFO]: CopperCookie issued server command: //paste
+[14:58:46] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[14:58:50] [Server thread/INFO]: CopperCookie issued server command: //paste
+[14:58:53] [Server thread/INFO]: CopperCookie issued server command: /undo
+[14:58:55] [Server thread/INFO]: CopperCookie issued server command: //paste
+[14:59:00] [Server thread/INFO]: CopperCookie issued server command: /undo
+[14:59:06] [Server thread/INFO]: CopperCookie issued server command: //paste
+[14:59:49] [Server thread/INFO]: CopperCookie issued server command: //set water
+[15:00:08] [Server thread/INFO]: CopperCookie issued server command: //set lapis_block
+[15:00:49] [Server thread/INFO]: CopperCookie issued server command: /undo
+[15:00:50] [Server thread/INFO]: CopperCookie issued server command: /undo
+[15:00:51] [Server thread/INFO]: CopperCookie issued server command: /undo
+[15:00:51] [Server thread/INFO]: CopperCookie issued server command: /undo
+[15:00:52] [Server thread/INFO]: CopperCookie issued server command: /undo
+[15:00:53] [Server thread/INFO]: CopperCookie issued server command: /undo
+[15:00:54] [Server thread/INFO]: CopperCookie issued server command: /undo
+[15:00:55] [Server thread/INFO]: CopperCookie issued server command: /undo
+[15:01:08] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:01:10] [Server thread/INFO]: CopperCookie issued server command: /undo
+[15:01:18] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:02:01] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[15:02:04] [Server thread/INFO]: CopperCookie issued server command: //replace 0
+[15:02:09] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[15:03:10] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:03:13] [Server thread/INFO]: CopperCookie issued server command: /undo
+[15:03:21] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[15:03:23] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[15:03:27] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:03:32] [Server thread/INFO]: CopperCookie issued server command: /undo
+[15:03:36] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[15:03:36] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[15:03:38] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:03:41] [Server thread/INFO]: CopperCookie issued server command: /undo
+[15:03:44] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[15:03:46] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:04:10] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[15:04:11] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[15:04:12] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[15:04:13] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:04:25] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:04:32] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:04:38] [Server thread/INFO]: CopperCookie issued server command: /undo
+[15:04:41] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[15:04:44] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:04:47] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[15:04:48] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[15:04:50] [Server thread/INFO]: CopperCookie issued server command: /undo
+[15:04:56] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:05:18] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[15:05:19] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:05:53] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[15:07:19] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[15:07:35] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[15:07:41] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[15:07:51] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[15:08:10] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[15:08:40] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[15:08:49] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[15:09:06] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[15:09:23] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[15:09:40] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[15:09:47] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[15:09:51] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[15:21:41] [Server thread/INFO]: CopperCookie issued server command: //set sign
+[15:22:44] [Server thread/INFO]: CopperCookie issued server command: //set sign
+[15:22:52] [Server thread/INFO]: CopperCookie issued server command: //set sign
+[15:23:26] [Server thread/INFO]: CopperCookie issued server command: //set 171:11
+[15:23:31] [Server thread/INFO]: CopperCookie issued server command: /undo
+[15:23:40] [Server thread/INFO]: CopperCookie issued server command: //set 171:11
+[15:29:00] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[15:29:10] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[15:32:00] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[15:33:22] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:33:25] [Server thread/INFO]: CopperCookie issued server command: /undo
+[15:33:35] [Server thread/INFO]: CopperCookie issued server command: //copy
+[15:33:41] [Server thread/INFO]: CopperCookie issued server command: //replace 0
+[15:33:46] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:40:34] [Server thread/INFO]: CopperCookie issued server command: //set 114:3
+[15:40:48] [Server thread/INFO]: CopperCookie issued server command: //set 156:2
+[15:41:14] [Server thread/INFO]: CopperCookie issued server command: //set 156:2
+[15:41:20] [Server thread/INFO]: CopperCookie issued server command: //set 114:3
+[15:42:17] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[15:43:58] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[15:44:11] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[15:44:18] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[15:45:15] [Server thread/INFO]: CopperCookie issued server command: //replace grass
+[15:45:33] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[15:46:54] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[15:47:01] [Server thread/INFO]: CopperCookie issued server command: //copy
+[15:47:04] [Server thread/INFO]: CopperCookie issued server command: //0
+[15:47:07] [Server thread/INFO]: CopperCookie issued server command: //r 0
+[15:47:10] [Server thread/INFO]: CopperCookie issued server command: //rep 0
+[15:47:15] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:47:56] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[15:48:09] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[15:48:12] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[15:48:24] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[15:49:32] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[15:51:06] [Server thread/INFO]: CopperCookie issued server command: /weather clear
+[15:51:42] [Server thread/INFO]: CopperCookie issued server command: //replace grass
+[15:51:55] [Server thread/INFO]: CopperCookie issued server command: //replace 31:1
+[15:52:05] [Server thread/INFO]: CopperCookie issued server command: //set 31:1
+[15:52:17] [Server thread/INFO]: CopperCookie issued server command: //set 31:1
+[15:52:37] [Server thread/INFO]: CopperCookie issued server command: //set 31:1
+[15:52:42] [Server thread/INFO]: CopperCookie issued server command: //set 31:1
+[15:53:33] [Server thread/INFO]: CopperCookie issued server command: //copy
+[15:53:38] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:53:41] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:53:44] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:53:47] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:53:49] [Server thread/INFO]: CopperCookie issued server command: //paste
+[15:58:17] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[15:58:23] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[15:59:07] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[15:59:10] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[15:59:16] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[15:59:22] [Server thread/INFO]: CopperCookie issued server command: //replace lapis_block
+[16:00:08] [Server thread/INFO]: CopperCookie issued server command: //replace 155:!
+[16:00:10] [Server thread/INFO]: CopperCookie issued server command: //replace 155:!
+[16:00:12] [Server thread/INFO]: CopperCookie issued server command: //replace 155:1
+[16:00:17] [Server thread/INFO]: CopperCookie issued server command: //replace 155:1+#
+[16:00:18] [Server thread/INFO]: CopperCookie issued server command: //replace 155:1+#
+[16:00:19] [Server thread/INFO]: CopperCookie issued server command: //replace 155:1+
+[16:00:20] [Server thread/INFO]: CopperCookie issued server command: //replace 155:1
+[16:00:51] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[16:00:56] [Server thread/INFO]: CopperCookie issued server command: //copy
+[16:01:20] [Server thread/INFO]: CopperCookie issued server command: //replace 155:1
+[16:01:51] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:01:55] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:01:59] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:02:02] [Server thread/INFO]: CopperCookie issued server command: /redo
+[16:02:05] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:02:17] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:02:20] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:02:27] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:02:35] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:02:41] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:02:47] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:02:53] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:03:26] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[16:03:30] [Server thread/INFO]: CopperCookie issued server command: //rep 0
+[16:03:36] [Server thread/INFO]: CopperCookie issued server command: //rep water
+[16:04:33] [Server thread/INFO]: CopperCookie issued server command: //rep water
+[16:04:43] [Server thread/INFO]: CopperCookie issued server command: //rep lapis_block
+[16:04:49] [Server thread/INFO]: CopperCookie issued server command: //rep lapis_block
+[16:04:53] [Server thread/INFO]: CopperCookie issued server command: //rep lapis_block
+[16:05:47] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[16:06:03] [Server thread/INFO]: CopperCookie issued server command: //copy
+[16:06:11] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[16:06:23] [Server thread/INFO]: CopperCookie issued server command: //pas
+[16:06:25] [Server thread/INFO]: CopperCookie issued server command: //past
+[16:06:26] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:06:30] [Server thread/INFO]: CopperCookie issued server command: /undoi
+[16:06:31] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:06:37] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:06:43] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:06:47] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:06:55] [Async Chat Thread - #5/INFO]: [PokemonMap][Admin]CopperCookie: Undo
+[16:06:57] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:07:03] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:07:17] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:07:40] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:07:43] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:07:50] [Server thread/INFO]: CopperCookie issued server command: //replace 0
+[16:07:52] [Server thread/INFO]: CopperCookie issued server command: //replace water
+[16:08:17] [Server thread/INFO]: CopperCookie issued server command: /rotate 90
+[16:08:20] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[16:08:22] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[16:08:23] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[16:08:30] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[16:08:31] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[16:08:31] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[16:08:32] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[16:08:34] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:08:55] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[16:09:01] [Server thread/INFO]: CopperCookie issued server command: //copy
+[16:09:07] [Server thread/INFO]: CopperCookie issued server command: //rotate 90
+[16:09:11] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:09:18] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:09:29] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:09:32] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:09:45] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:10:10] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[16:10:17] [Server thread/INFO]: CopperCookie issued server command: //copy
+[16:10:26] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:10:29] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:10:35] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:10:56] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[16:11:04] [Server thread/INFO]: CopperCookie issued server command: //move 0 1 0
+[16:11:10] [Server thread/INFO]: CopperCookie issued server command: //move 1
+[16:11:13] [Server thread/INFO]: CopperCookie issued server command: //move 1
+[16:11:16] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:11:18] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:11:21] [Server thread/INFO]: CopperCookie issued server command: //move -1
+[16:11:39] [Server thread/INFO]: CopperCookie issued server command: //move 1 1
+[16:11:41] [Server thread/INFO]: CopperCookie issued server command: //move 1 s
+[16:11:44] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:11:57] [Server thread/INFO]: CopperCookie issued server command: //move 4 east
+[16:11:59] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:12:02] [Server thread/INFO]: CopperCookie issued server command: //move 3 east
+[16:12:29] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[16:12:33] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[16:12:36] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[16:13:29] [Server thread/INFO]: CopperCookie issued server command: //set water
+[16:13:32] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:13:48] [Server thread/INFO]: CopperCookie issued server command: //set water
+[16:14:03] [Server thread/INFO]: CopperCookie issued server command: //set water
+[16:14:22] [Server thread/INFO]: CopperCookie issued server command: //set water
+[16:32:37] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[16:32:49] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[16:33:18] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[16:33:25] [Server thread/INFO]: CopperCookie issued server command: //copy
+[16:33:36] [Server thread/INFO]: CopperCookie issued server command: //rep 0
+[16:33:38] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:33:41] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:33:45] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:34:58] [Server thread/INFO]: CopperCookie issued server command: //rep 175
+[16:35:25] [Server thread/INFO]: CopperCookie issued server command: //set 189
+[16:37:21] [Server thread/INFO]: CopperCookie issued server command: //set 31:1
+[16:43:20] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[16:43:27] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[16:43:40] [Server thread/INFO]: CopperCookie issued server command: //set 155:1
+[16:47:56] [Server thread/INFO]: CopperCookie issued server command: /weather
+[16:47:58] [Server thread/INFO]: CopperCookie issued server command: /weather sun
+[16:48:01] [Server thread/INFO]: CopperCookie issued server command: /weather sun 1000000
+[16:48:07] [Server thread/INFO]: CopperCookie issued server command: /weather sun 1000000h
+[16:48:09] [Server thread/INFO]: CopperCookie issued server command: /weather sun 1000000m
+[16:48:12] [Server thread/INFO]: CopperCookie issued server command: /weather sun 100000000000
+[16:48:13] [Server thread/INFO]: CopperCookie issued server command: /weather sun 10000000000
+[16:48:15] [Server thread/INFO]: CopperCookie issued server command: /weather sun 1000000000
+[16:54:30] [Server thread/INFO]: CopperCookie issued server command: //set 31:1
+[16:56:29] [Server thread/INFO]: CopperCookie issued server command: //copy
+[16:56:33] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:56:39] [Server thread/INFO]: CopperCookie issued server command: /undo
+[16:57:02] [Server thread/INFO]: CopperCookie issued server command: //copy
+[16:57:04] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:07] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:08] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:09] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:11] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:12] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:17] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:19] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:20] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:22] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:24] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:25] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:26] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:28] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:39] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:42] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:44] [Server thread/INFO]: CopperCookie issued server command: //paste
+[16:57:46] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:18:43] [User Authenticator #13/INFO]: UUID of player SryForBeingGay is af6718ae-82b8-4c41-a28e-a555707fa868
+[17:18:44] [Server thread/INFO]: SryForBeingGay[/178.113.167.234:27954] logged in with entity id 248687 at ([PokemonMap]-3.3338617808543347, 14.793545148695625, 68.07153519996496)
+[17:30:35] [Server thread/INFO]: SryForBeingGay issued server command: /gm 1
+[17:32:32] [Server thread/INFO]: SryForBeingGay issued server command: //copy
+[17:32:55] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:36:10] [Server thread/INFO]: CopperCookie issued server command: //set 1:4
+[17:36:57] [Server thread/INFO]: SryForBeingGay issued server command: //copy
+[17:37:00] [Server thread/INFO]: SryForBeingGay issued server command: //set 0
+[17:37:02] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:37:26] [Server thread/INFO]: SryForBeingGay issued server command: //set 155
+[17:37:29] [Server thread/INFO]: SryForBeingGay issued server command: //set 155
+[17:37:34] [Server thread/INFO]: SryForBeingGay issued server command: //set 155
+[17:37:38] [Server thread/INFO]: SryForBeingGay issued server command: //set 155
+[17:39:25] [Server thread/INFO]: CopperCookie issued server command: //set 1:4
+[17:39:58] [Server thread/INFO]: CopperCookie issued server command: //set 1:4
+[17:40:10] [Server thread/INFO]: SryForBeingGay issued server command: /kill CopperCookie
+[17:40:10] [Server thread/INFO]: CopperCookie died
+[17:40:12] [Server thread/INFO]: [Essentials] Lag Notice - Slow Permissions System (PermissionsEx) Response - Request took over 373.453ms!
+[17:40:12] [Server thread/INFO]: [Essentials] Lag Notice - Slow Permissions System (PermissionsEx) Response - Request took over 436.73ms!
+[17:40:21] [Server thread/INFO]: CopperCookie issued server command: /back
+[17:40:21] [Server thread/INFO]: CopperCookie issued server command: /gm 1
+[17:40:25] [Server thread/INFO]: CopperCookie issued server command: /gm 1
+[17:42:49] [Server thread/INFO]: SryForBeingGay issued server command: //set 159:4
+[17:43:07] [Server thread/INFO]: SryForBeingGay issued server command: /gm 3
+[17:43:13] [Server thread/INFO]: SryForBeingGay issued server command: /gm 1
+[17:44:49] [Server thread/INFO]: SryForBeingGay issued server command: //set 155:1
+[17:44:54] [Server thread/INFO]: SryForBeingGay issued server command: //set 155:1
+[17:45:00] [Server thread/INFO]: CopperCookie issued server command: //copy
+[17:45:05] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:45:09] [Server thread/INFO]: CopperCookie issued server command: /undo
+[17:45:33] [Server thread/INFO]: SryForBeingGay issued server command: //copy
+[17:45:40] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:45:46] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:45:53] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[17:45:56] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[17:46:00] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:46:10] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:46:14] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:46:16] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:46:50] [Server thread/INFO]: CopperCookie issued server command: //set 31:1
+[17:47:26] [Server thread/INFO]: CopperCookie issued server command: //forest
+[17:47:27] [Server thread/INFO]: SryForBeingGay issued server command: //?
+[17:47:29] [Server thread/INFO]: SryForBeingGay issued server command: //help
+[17:47:37] [Server thread/INFO]: CopperCookie issued server command: /undo
+[17:47:42] [Server thread/INFO]: SryForBeingGay issued server command: //tree
+[17:47:42] [Server thread/INFO]: CopperCookie issued server command: //forest
+[17:47:46] [Server thread/INFO]: CopperCookie issued server command: /undo
+[17:47:53] [Server thread/INFO]: SryForBeingGay issued server command: //tree
+[17:48:00] [Server thread/INFO]: SryForBeingGay issued server command: //tree 2
+[17:48:02] [Server thread/INFO]: SryForBeingGay issued server command: //tree 1
+[17:48:04] [Server thread/INFO]: SryForBeingGay issued server command: //tree 5
+[17:48:05] [Server thread/INFO]: SryForBeingGay issued server command: //tree
+[17:50:01] [Server thread/INFO]: SryForBeingGay issued server command: //copy
+[17:50:08] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:50:21] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[17:50:25] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:50:30] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:50:34] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[17:50:37] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:50:43] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:50:48] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[17:50:49] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:50:56] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:51:03] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:51:42] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[17:51:46] [Server thread/INFO]: CopperCookie issued server command: //copy
+[17:52:05] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:52:30] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:52:38] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:52:46] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:52:50] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:53:37] [Server thread/INFO]: CopperCookie issued server command: //set 1
+[17:53:38] [Server thread/INFO]: CopperCookie issued server command: //set 2
+[17:54:23] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:54:35] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[17:54:40] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[17:54:50] [Server thread/INFO]: CopperCookie issued server command: //pos1
+[17:54:56] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[17:55:03] [Server thread/INFO]: CopperCookie issued server command: //copy
+[17:55:09] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:55:12] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:55:14] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:55:22] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:55:25] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:55:27] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:55:30] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:55:34] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:55:37] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:55:39] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:55:41] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:55:45] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:55:48] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:55:50] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:55:52] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:56:05] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:56:07] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:56:09] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:56:14] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:56:19] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:56:22] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:56:26] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:56:29] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:56:34] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:56:36] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:56:54] [Server thread/INFO]: SryForBeingGay issued server command: //copy
+[17:57:03] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:57:14] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:57:17] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:57:19] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:57:21] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:57:24] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:57:26] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:57:30] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:57:53] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:58:01] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:58:06] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:58:10] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:58:13] [Server thread/INFO]: CopperCookie issued server command: /undo
+[17:58:14] [Server thread/INFO]: CopperCookie issued server command: /undo
+[17:58:18] [Server thread/INFO]: CopperCookie issued server command: /redo
+[17:58:20] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:58:21] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:58:22] [Server thread/INFO]: CopperCookie issued server command: /undo
+[17:58:25] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:58:33] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:58:35] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:58:41] [Server thread/INFO]: CopperCookie issued server command: //paste
+[17:58:42] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:59:03] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:59:06] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[17:59:09] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[17:59:15] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[17:59:29] [Server thread/INFO]: SryForBeingGay issued server command: //set 0
+[17:59:55] [Server thread/INFO]: CopperCookie issued server command: /pos2
+[17:59:59] [Server thread/INFO]: CopperCookie issued server command: //pos2
+[18:00:03] [Server thread/INFO]: CopperCookie issued server command: //set 0
+[18:01:17] [Server thread/INFO]: SryForBeingGay issued server command: //copy
+[18:01:20] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:01:23] [Server thread/INFO]: CopperCookie issued server command: /undo
+[18:01:28] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:01:33] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:01:35] [Server thread/INFO]: CopperCookie issued server command: /undo
+[18:01:38] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:01:47] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:01:51] [Server thread/INFO]: CopperCookie issued server command: /undo
+[18:01:54] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:01:58] [Server thread/INFO]: CopperCookie issued server command: /undo
+[18:02:01] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:02:06] [Async Chat Thread - #6/INFO]: [PokemonMap][Admin]CopperCookie: Undo
+[18:02:10] [Server thread/INFO]: CopperCookie issued server command: /undpo
+[18:02:13] [Server thread/INFO]: CopperCookie issued server command: /undo
+[18:02:15] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:02:36] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:02:38] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:02:39] [Server thread/INFO]: SryForBeingGay issued server command: //copy
+[18:02:40] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:02:42] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:02:44] [Server thread/INFO]: SryForBeingGay issued server command: //flip
+[18:02:44] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:02:46] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:02:48] [Server thread/INFO]: CopperCookie issued server command: /undo
+[18:02:50] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:02:52] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:02:56] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:03:01] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:03:03] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:03:03] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:03:11] [Server thread/INFO]: SryForBeingGay issued server command: /Undo
+[18:03:15] [Server thread/INFO]: SryForBeingGay issued server command: //flip
+[18:03:17] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:03:25] [Server thread/INFO]: SryForBeingGay issued server command: /Undo
+[18:03:30] [Server thread/INFO]: SryForBeingGay issued server command: //flip east
+[18:03:33] [Server thread/INFO]: SryForBeingGay issued server command: //flip up
+[18:03:35] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:03:46] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:04:03] [Server thread/INFO]: SryForBeingGay issued server command: //flip south
+[18:04:05] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:04:29] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:04:35] [Server thread/INFO]: SryForBeingGay issued server command: /redo
+[18:04:49] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:04:52] [Server thread/INFO]: CopperCookie issued server command: /undo
+[18:04:54] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:04:57] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:05:03] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:05:04] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:05:08] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:05:08] [Async Chat Thread - #7/INFO]: [PokemonMap][Admin]CopperCookie: Undo
+[18:05:09] [Server thread/INFO]: CopperCookie issued server command: /undo
+[18:05:21] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:05:23] [Server thread/INFO]: CopperCookie issued server command: /undo
+[18:05:26] [Server thread/INFO]: CopperCookie issued server command: /undo
+[18:05:30] [Server thread/INFO]: CopperCookie issued server command: /redo
+[18:05:32] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:05:36] [Server thread/INFO]: CopperCookie issued server command: /und
+[18:05:40] [Server thread/INFO]: SryForBeingGay issued server command: //undo
+[18:05:43] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:06:38] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:06:40] [Server thread/INFO]: CopperCookie issued server command: /undo
+[18:06:43] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:06:49] [Server thread/INFO]: CopperCookie issued server command: /undo
+[18:07:01] [Server thread/INFO]: SryForBeingGay issued server command: //undo
+[18:07:03] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:07:23] [Server thread/INFO]: CopperCookie issued server command: //set water
+[18:07:36] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:07:39] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:07:41] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:07:43] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:07:46] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:07:48] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:07:51] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:08:08] [Server thread/INFO]: CopperCookie issued server command: //set water
+[18:08:17] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:08:20] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:08:22] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:08:25] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:08:28] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:08:35] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:08:37] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:08:40] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:08:42] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:08:44] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:08:46] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:08:49] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:08:55] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:08:57] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:08:59] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:09:01] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:09:04] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:09:06] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:09:10] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:09:23] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:09:25] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:09:27] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:09:30] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:09:33] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:09:37] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:09:43] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:09:47] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:09:52] [Server thread/INFO]: CopperCookie issued server command: /ms
+[18:09:52] [Server thread/INFO]: SryForBeingGay issued server command: //copy
+[18:09:54] [Server thread/INFO]: CopperCookie issued server command: /ping
+[18:09:59] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:10:04] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:10:06] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:10:07] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:10:09] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:10:11] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:10:11] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:10:16] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:10:20] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:10:23] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:10:26] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:10:29] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:10:32] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:10:35] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:11:03] [Server thread/INFO]: CopperCookie issued server command: //set water
+[18:11:18] [Server thread/INFO]: CopperCookie issued server command: //set lapis_block
+[18:11:31] [Server thread/INFO]: CopperCookie issued server command: //set lapis_block
+[18:12:05] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:12:08] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:12:11] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:12:22] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:12:29] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:12:33] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:12:35] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:12:38] [Server thread/INFO]: SryForBeingGay issued server command: /redo
+[18:12:39] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:12:55] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:13:03] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:13:10] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:13:15] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:13:20] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:13:28] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:13:32] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:13:38] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:13:44] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:13:49] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:13:54] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:13:58] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:14:30] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:14:34] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:14:39] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:14:44] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:14:47] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:14:53] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:14:59] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:15:01] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:15:04] [Server thread/INFO]: CopperCookie issued server command: //paste
+[18:15:47] [Server thread/INFO]: SryForBeingGay issued server command: //copy
+[18:16:08] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:16:10] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:16:11] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:16:13] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:16:13] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:16:14] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:16:14] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:16:15] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:16:15] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:16:16] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:16:16] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:16:17] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:16:17] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:16:18] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:16:31] [Server thread/INFO]: SryForBeingGay issued server command: //set 2
+[18:16:52] [Server thread/INFO]: SryForBeingGay issued server command: /undo 14
+[18:16:57] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:17:17] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:17:23] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:17:26] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:17:39] [Server thread/INFO]: SryForBeingGay issued server command: /undo
+[18:17:44] [Server thread/INFO]: SryForBeingGay issued server command: //paste
+[18:18:02] [Server thread/INFO]: CopperCookie lost connection: Disconnected
+[18:18:02] [Server thread/INFO]: CopperCookie left the game.
+[18:18:17] [Server thread/INFO]: SryForBeingGay issued server command: //set 2
+[18:18:42] [Server thread/INFO]: SryForBeingGay lost connection: Disconnected
+[18:18:42] [Server thread/INFO]: SryForBeingGay left the game.
