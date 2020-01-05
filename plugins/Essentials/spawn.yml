@@ -1,11 +1,11 @@
 spawns: 
   default: 
-    world: Spawn
-    x: 1.5
-    y: 4.0
-    z: 0.5
-    yaw: 0.0
-    pitch: 0.0
+    world: world
+    x: -173.5806611269073
+    y: 70.0
+    z: 249.5664691704134
+    yaw: 271.93246
+    pitch: 27.206001
   winter: 
     world: Winter
     x: -607.7193513481088

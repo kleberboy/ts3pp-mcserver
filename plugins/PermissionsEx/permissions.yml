@@ -58,7 +58,7 @@ users:
     permissions:
     - '*'
     options:
-      name: SryForBeingGay
+      name: SryForBeingGray
     group:
     - Admin
     worlds:
@@ -205,4 +205,4 @@ users:
     group:
     - Admin
     options:
-      name: CopperCookie
+      name: FlossenMonster

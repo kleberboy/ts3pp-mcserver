@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "c811ffa1-cfcd-44bf-a87c-64a8a0cc7518",
+    "name": "EvilAntiSmiley",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "6060ee75-033c-34b9-8269-53f459595e44",
     "name": "SryForBeingGay",
     "level": 4,

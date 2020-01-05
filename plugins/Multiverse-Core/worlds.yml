@@ -194,7 +194,7 @@ worlds:
   Sommer:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: Sommer
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -242,7 +242,7 @@ worlds:
   PokemonMap:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: PokemonMap
     color: WHITE
     style: NORMAL
     pvp: 'true'
