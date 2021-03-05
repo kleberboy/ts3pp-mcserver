@@ -1,20 +1,22 @@
 lastAccountName: ChristofelHD
 timestamps:
-  login: 1527959692375
-  logout: 1527962742383
+  login: 1604192258409
+  logout: 1604194699584
   lastteleport: 1527960005876
-ipAddress: 194.166.93.52
+ipAddress: 80.121.52.121
 lastlocation:
   world: world
-  x: -209.32308747787118
-  y: 71.0
-  z: 252.37331360810606
-  yaw: 84.738266
-  pitch: 57.488163
+  x: -227.43225386340208
+  y: 87.57480578860859
+  z: 310.487166174484
+  yaw: -141.45407
+  pitch: 6.767319
 logoutlocation:
-  world: Frￃhling
-  x: -130.06020445202205
-  y: 109.0
-  z: 87.69999998807903
-  yaw: 330.25964
-  pitch: -24.457407
+  world: world
+  x: -351.7827781560742
+  y: 190.75260378991808
+  z: 186.20833137338857
+  yaw: 106.67273
+  pitch: 17.773647
+godmode: true
+afk: false

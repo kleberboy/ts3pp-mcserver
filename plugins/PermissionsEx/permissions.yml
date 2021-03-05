@@ -183,7 +183,7 @@ users:
     - Member
   ab31fcce-49a3-4753-924a-f521165b9d4c:
     group:
-    - Member
+    - Admin
     options:
       name: ChristofelHD
   1291b47b-18ec-48d8-8e94-e156f73cffc4:

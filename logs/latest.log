@@ -1,2 +1,27 @@
-[02:39:50] [RCON Listener #1/INFO]: Rcon connection from: /5.101.64.77
-[02:43:17] [RCON Listener #1/INFO]: Rcon connection from: /5.101.64.77
+[22:35:35] [RCON Listener #1/INFO]: Rcon connection from: /0:0:0:0:0:0:0:1
+[22:35:35] [Server thread/INFO]: [Rcon: Stopping the server]
+[22:35:35] [Server thread/INFO]: Stopping server
+[22:35:35] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v2.5.0-SNAPSHOT-b418
+[22:35:35] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild vTeamCity
+[22:35:35] [Server thread/INFO]: [TimberMP] Disabling TimberMP v1.3.0
+[22:35:35] [Server thread/INFO]: [TimberMP] v1.3.0 by [McSebi] disabled.
+[22:35:35] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b719
+[22:35:35] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.0.0-beta-03.1514-
+[22:35:35] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[22:35:35] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vTeamCity
+[22:35:35] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn vTeamCity
+[22:35:35] [Server thread/INFO]: [ClearChat] Disabling ClearChat v1.2
+[22:35:35] [Server thread/INFO]: ClearChat version 1.2 by Luconian deactivated
+[22:35:35] [Server thread/INFO]: [Essentials] Disabling Essentials vTeamCity
+[22:35:35] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[22:35:35] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[22:35:35] [Server thread/INFO]: Saving players
+[22:35:35] [Server thread/INFO]: Saving worlds
+[22:35:35] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:35:35] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[22:35:35] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[22:35:35] [Server thread/INFO]: Saving chunks for level 'Winter'/Overworld
+[22:35:35] [Server thread/INFO]: Saving chunks for level 'Sommer'/Overworld
+[22:35:35] [Server thread/INFO]: Saving chunks for level 'PokemonMap'/Overworld
+[22:35:35] [Server thread/INFO]: Saving chunks for level 'Spawn'/Overworld
+[22:35:35] [Server thread/INFO]: Saving chunks for level 'Fruhling'/Overworld

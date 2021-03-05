@@ -74,6 +74,6 @@ regions:
                 13b1a0cc-d418-49f7-be11-2bcc4f088ed6, bcb341ca-4a16-4bda-ad95-ad56b03f3dcb,
                 a9d76660-f3e9-4849-bfc3-8368b8006a55, b9d75492-4c60-4208-9cd1-4e125feed20e,
                 532b1cd0-97b3-44e8-9a4a-2459464b5cef, e9ce0f1f-b5fc-46cd-9e2b-3a9fc4ce22a8,
-                109d5f98-78de-494e-b139-962b51dfdf94]
+                109d5f98-78de-494e-b139-962b51dfdf94, ab31fcce-49a3-4753-924a-f521165b9d4c]
         type: global
         priority: 0
